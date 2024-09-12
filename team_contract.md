@@ -9,3 +9,11 @@
 
 The team will keep an active log reporting team member's activity during meetings, any accomplishments or shortcomings.
 All group members are to come prepared to meetings, and curate any ideas they wish to present to the group
+
+
+
+## Methods for resolving an impasse
+-  _Step 1_: All team members will hold each other accountable for tasks and we will have a designated person that will send out deadline reminders, so that no team member can say that they weren't aware of when to submit their work.
+-  _Step 2_: All team members will have three strikes, if not communicated within 24 hours of the deadline, in terms of getting their work done on time.
+- _Step 3_: If Step 1 is not met by all team members then the TA will be contcted and informed about the situation. 
+- _Step 4_: If the individuals behavior does not change, the issue will be taken directly to Professor Buzard and a grade change will be determined. 
