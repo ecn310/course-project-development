@@ -27,3 +27,10 @@ If required a member may have to take on another role, e.g: Timekeeper and Devil
 - The historian is resposble for taking notes during the meetings and organize the recent files or commnucation files we may externally acquire prior to the intial research data, whilst making presentations from the same notes. 
 - Timekeeper keeps track of the time and has to keep track of the time alloted for each group. The leader is responsible ot decide the direction of the discussion when teh time is running out.
 - There will be an individual playing the devils advocate, hence woudl be required to keep his/her mind open to all discussions and points regarding problems, posisblities and divergent or oppposing ideas.
+
+## Communication between members
+- All group members are expected to maintain clear and consistent communication through I message for updates and clarifications
+- Urgent matters should be addressed via text or direct messaging, and group members must respond within 24 hours to avoid delays in decision-making or project progress
+- For non-urgent queries or feedback, members are expected to provide thoughtful responses within 48 hours.
+- All official group communications regarding task assignments, deadlines, and meeting agendas will be summarized in written form and shared with everyone for clarity and reference.
+- If a member encounters an issue or conflict, they should raise it to the group in a respectful manner, either during the next meeting or via the group chat.
