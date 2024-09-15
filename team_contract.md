@@ -1,5 +1,7 @@
 # __Team Contract__ for Economic Research in Global Development
-Megha, Filippo, Sergio, Lucia
+Sergio, Megha, Filippo, Lucia
+
+spostelo@syr.edu, meiska@syr.edu, fadona@syr.edu, lurioslu@syr.edu
 
 > [!IMPORTANT]
 > All team members must follow these guidelines at all times
