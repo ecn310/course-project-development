@@ -28,8 +28,14 @@ All group members are to come prepared to meetings, and curate any ideas they wi
 
 -  __Step 1__: All team members will hold each other accountable for tasks and we will have a designated person that will send out deadline reminders, so that no team member can say that they weren't aware of when to submit their work.
 -  __Step 2__: All team members will have three strikes, if not communicated within 24 hours of the deadline, in terms of getting their work done on time.
+   If a team member repeatedly fails to complete their work, misses deadlines, or is not participating equally, the following warning system will be implemented:
+
+   -  Strike 1: Verbal Warning: After the first missed deadline or instance of inadequate participation, the Leader will issue a verbal warning to the group member, reminding them of their responsibilities and the impact of their actions on the team’s progress.
+   -  Strike 2: Written Warning: If the issue persists, the Historian will document the incident, and a written warning will be sent to the individual. This warning will clearly state the specific expectations they have not met and a deadline by which the behavior needs to improve.
+   -  Strike 3: Group Meeting with the Member: If no improvement is observed after the second strike, the group will hold a meeting with the individual to directly address the ongoing issues. This meeting should focus on finding solutions, such as re-allocating tasks or offering support.
+
 - __Step 3__: If Step 1 is not met by all team members then the TA will be contacted and informed about the situation. 
-- __Step 4__: If the individual's behavior does not change, the issue will be taken directly to Professor Buzard and a grade change will be determined. 
+- __Step 4__: If the individual's behavior does not change, the issue will be taken directly to Professor Buzard and a grade change will be determined. After three strikes, we will talk about the possibility of reducing the individual's project grade by 5-10% or other penalties (if required) at the professor's discretion.
 
 ## D. Roles for Members
 >[!Note]
