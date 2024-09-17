@@ -21,7 +21,6 @@ The team will keep an active log reporting team members' activity during meeting
 All group members are to come prepared to meetings, and curate any ideas they wish to present to the group
 
 
-
 ## C. Methods for Resolving an Impasse
 
 > [!WARNING]
@@ -33,15 +32,49 @@ All group members are to come prepared to meetings, and curate any ideas they wi
 - __Step 4__: If the individual's behavior does not change, the issue will be taken directly to Professor Buzard and a grade change will be determined. 
 
 ## D. Roles for Members
+>[!Note]
+> General Member Responsibilities (Applicable to All Roles)
+> All group members, regardless of the role they hold in a particular week, will be responsible for the following tasks:
+>- Active Participation: Attend all meetings and actively participate in discussions, offering ideas, feedback, and support to other team members.
+>- Task Completion: Please complete assigned tasks by the agreed deadlines and inform the group of any obstacles or delays as soon as possible.
+>- Preparation for Meetings: Come prepared for every meeting by reviewing prior discussions and tasks and contributing to the next steps in the research.
+>- Peer Support: When necessary, support other team members in their roles and offer constructive feedback to improve the group’s overall performance.
+>  Any changes required in responsibilities can be revised. 
 
-If required a member may have to take on another role, e.g: Timekeeper and Devils Advocate. 
+Each group member will assume a role that will rotate weekly/biweekly to ensure accountability and equal participation. The roles will include a Leader, Historian, Timekeeper, and Devil’s Advocate. Below is an in-depth breakdown of what each role entails:
+        - Assigned before or during meeting for the following week
+        
+- ***LEADER***: The Leader is responsible for organizing and guiding the group's activities for each meeting and ensuring the research project progresses according to the timeline.
+  Tasks include:
+  1. Setting Agendas: Try to prepare and circulate the meeting agenda 24 hours before the meeting. The agenda should include key discussion points, deadlines, and sub-goals that need to be achieved.
+  2. Facilitating Meetings: Lead discussions during meetings, ensuring all relevant topics are covered. Manage the direction of conversations to stay on track and ensure everyone participates.
+  3. Delegating Tasks: Assign tasks to team members based on the project needs and individuals’ strengths.
+  4. Monitoring Progress: Track the progress of each team member's work, ensuring they are meeting deadlines and quality expectations.
+  5. Reporting Issues: If the group has unresolved issues, the Leader is responsible for escalated matters to the team, TA, or Professor when necessary.
+  6. Presentation: Coordinate and lead the presentation of group material to the class, ensuring everyone has a role in the presentation.
 
-- Each week for every meeting the roles will keep changing for the team member creating accountability in everyone on the team.
-        - Assigned prior to or before  meeting for the following week
-- The leader will have an agenda planned out and have a set of rules that pertain to the academic research, and set-sub goals. Each sub-goal should be of group consensus. The leader is also responsible for presenting the group material to the class.
-- The historian is responsible for taking notes during the meetings and organizing the recent files or communication files we may externally acquire prior to the initial research data, whilst making presentations from the same notes. 
-The timekeeper keeps track of the time and has to keep track of the time allotted for each group. The leader is responsible for deciding the direction of the discussion when the time is running out.
-- There will be an individual playing the devil's advocate and, hence would be required to keep his/her mind open to all discussions and points regarding problems, possibilities, and divergent or opposing ideas.
+- ***HISTORIAN*** (note taker): The Historian is responsible for keeping a clear and organized record of all communications (emails, docs, etc), discussions, decisions, and action points from each meeting/week.
+  Tasks include:
+  1. Taking Detailed Notes: Record all relevant points, including task assignments, deadlines, and discussion summaries, during each meeting.
+  2. Organizing Documentation: Maintain a centralized file (e.g., shared Google Drive, OneNote) where all meeting notes, project documents, and research data are stored. Ensure that all files are accessible and up-to-date.
+  3. Summarizing Meetings: After each meeting, compile and send a summary to the group within 24 hours for reference and accountability.
+  4. Assisting with Presentations: Help create and organize the slides or materials for presentations, ensuring they align with the group's research and discussions.
+
+- ***Timekeeper***: The Timekeeper ensures that meetings and project timelines run efficiently and that all tasks are timely.
+  Tasks include:
+  1. Tracking Meeting Time: Monitor the duration of discussions during meetings, ensuring that the group sticks to the agenda and does not exceed the planned time.
+  2. Allocating Time for Topics: Work with the Leader to allocate specific time slots for each agenda item and remind the group when time is running short.
+  3. Monitoring Deadlines: Record all deadlines for tasks and milestones. Send reminders 48 hours in advance to ensure that group members are aware of upcoming deadlines.
+  4. Updating the Timeline: If deadlines shift or additional tasks are introduced, update the project timeline and communicate these changes to the group.
+ 
+- ***Devils Advocate***: The Devil's Advocate is critical in ensuring the group considers all perspectives and challenges assumptions during discussions.
+  Tasks include:
+  1. Offering Alternative Views: Actively challenge ideas and suggestions by offering counterarguments, alternative approaches, or pointing out potential issues in the group's plan.
+  2. Identifying Risks: Highlight any risks, gaps, or weaknesses in the project's strategy and suggest ways to mitigate these risks.
+  3. Facilitating Problem-Solving: Facilitate thoughtful discussion of potential solutions or next steps to help the group make more well-rounded decisions.
+
+Sub-Roles
+Additional sub-roles (e.g., Research Analyst, Editor) may be introduced for specific tasks like data collection or document proofreading. These roles can be assigned based on the skill sets or availability of the group members.
 
 ## E. Communication Between Members
 
@@ -50,3 +83,7 @@ The timekeeper keeps track of the time and has to keep track of the time allotte
 - For non-urgent queries or feedback, members are expected to provide thoughtful responses within 48 hours.
 - All official group communications regarding task assignments, deadlines, and meeting agendas will be summarized in written form and shared with everyone for clarity and reference.
 - If a member encounters an issue or conflict, they should raise it to the group in a respectful manner, either during the next meeting or via the group chat.
+
+## F. Additional Protocols
+- Fairness in Warnings: Before each warning is issued, the group should carefully consider whether the individual was given sufficient support or if other factors, such as workload distribution or personal challenges, may have contributed to their shortcomings.
+- Continuous Review: Throughout the project, the group will regularly assess if any members are struggling with their tasks or deadlines, allowing for early interventions and providing support before escalation is necessary.
