@@ -32,10 +32,16 @@ All group members are to come prepared to meetings, and curate any ideas they wi
 
    -  Strike 1: Verbal Warning: After the first missed deadline or instance of inadequate participation, the Leader will issue a verbal warning to the group member, reminding them of their responsibilities and the impact of their actions on the team’s progress.
    -  Strike 2: Written Warning: If the issue persists, the Historian will document the incident, and a written warning will be sent to the individual. This warning will clearly state the specific expectations they have not met and a deadline by which the behavior needs to improve.
-   -  Strike 3: Group Meeting with the Member: If no improvement is observed after the second strike, the group will hold a meeting with the individual to directly address the ongoing issues. This meeting should focus on finding solutions, such as re-allocating tasks or offering support.
+   -  Strike 3: Group Meeting with the Member: If no improvement is observed after the second strike, the group will hold a meeting with the individual to directly address the ongoing issues. This meeting should focus on finding solutions, such as re- allocating tasks or offering support.
 
 - __Step 3__: If Step 1 is not met by all team members then the TA will be contacted and informed about the situation. 
 - __Step 4__: If the individual's behavior does not change, the issue will be taken directly to Professor Buzard and a grade change will be determined. After three strikes, we will talk about the possibility of reducing the individual's project grade by 5-10% or other penalties (if required) at the professor's discretion.
+
+If a member is struggling to meet expectations but shows a willingness to improve, the group can propose an improvement plan:
+
+Set Clear Expectations: The group will outline specific actions the member needs to take, including clearer deadlines, check-ins, or paired work to help them meet their tasks.
+Follow-Up: The group will check in regularly with the member, ensuring progress and offering additional support if needed.
+Reevaluation: If the member successfully meets the improvement plan's expectations, the issue will be considered resolved. If not, further escalation as outlined in Step 3 or Step 4 may be necessary.
 
 ## D. Roles for Members
 >[!Note]
