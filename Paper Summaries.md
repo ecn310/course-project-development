@@ -19,6 +19,8 @@ Hypothesis: Industrialization acts as an engine of growth in developing countrie
 
 Citation: Appiah, Michael, Richard Amoasi, and Doreen Idan Frowne. "Human development and its effects on economic growth and development." International Research Journal of Business Studies 12.2 (2019). 
 
+Link: https://d1wqtxts1xzle7.cloudfront.net/96351636/0337e207b678e2970216f28febbe9f16748f-libre.pdf?1672027045=&response-content-disposition=inline%3B+filename%3DHuman_Development_and_Its_Effects_on_Eco.pdf&Expires=1727369117&Signature=LxO0BnNRMOUqYSTGHMK00RRD75wqRaJ8l19rG0UL5lGssflr98UkOE2gyIgoO7gdhB4Uf6aT6hirUx2~xJG2kDG5ncTzeGT7rKHeoOPBzOKC4~J9BV7mUI0kryeV5bLfZbdM4kvwJa~p9yBimLFBS-7U9h3~-GJB1aY9UMW7kznu3MFNDAS0jQNtzJyKA1ZnQpyKJQd5wc3DVVBZ9PvGxhQnlS6enMRYFEUNrjNa4fg2dqnVRqjYuZaObTwQk-L~NtXCA1osxNnIl4s9gme7H0X2i9NIQhQDUTAbkonxXQWA0lzJuUNxyyVmRSL7FWnPjzH1dm2GnTEmTUdUY4YWFw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
 Big Picture Question: How does the Human Development Index specifically impact GDP growth in African countries between 1990 and 2015?
 
 Specific Question: How have some African countries achieved a very high human development when controlling for inflation, capital, investment, labor, and foreign aid between 1990 and 2015?
