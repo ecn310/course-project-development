@@ -26,3 +26,33 @@ Big Picture Question: How does the Human Development Index specifically impact G
 Specific Question: How have some African countries achieved a very high human development when controlling for inflation, capital, investment, labor, and foreign aid between 1990 and 2015?
 
 Hypothesis: As the life expectancy increases in African nations, we can observe a rise in human development through the rise of GDP.
+
+
+
+## Paper 3
+
+Citation: Maddison A. A Comparison of Levels of GDP Per Capita in Developed and Developing Countries, 1700–1980. The Journal of Economic History. 1983;43(1):27-41. doi:10.1017/S0022050700028965
+
+Link: https://www.cambridge.org/core/journals/journal-of-economic-history/article/comparison-of-levels-of-gdp-per-capita-in-developed-and-developing-countries-17001980/B2EE78543292CA758F00E60E6988E23F
+
+
+## Paper 4
+
+Citation:  Gustav Ranis, et al. “Economic Growth and Human Development.” World Development, Pergamon, 2 Feb. 2000, 
+
+Link: https://www.sciencedirect.com/science/article/pii/S0305750X9900131X
+
+
+## Paper 5
+
+Citation:  Schmitz, Hubert. "Growth constraints on small-scale manufacturing in developing countries: a critical review." World development 10.6 (1982): 429-450.
+
+
+Link: https://www.sciencedirect.com/science/article/pii/0305750X82900018
+
+
+## Paper 6
+
+Citation: Helleiner, Gerald K. "Direct foreign investment and manufacturing for export in developing countries: a review of the issues." Policies for Development: Essays in Honour of Gamani Corea (1988): 123-153.
+
+Link: https://link.springer.com/chapter/10.1007/978-1-349-09416-5_6
