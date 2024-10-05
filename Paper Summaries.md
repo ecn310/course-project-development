@@ -27,6 +27,15 @@ Specific Question: How have some African countries achieved a very high human de
 
 Hypothesis: As the life expectancy increases in African nations, we can observe a rise in human development through the rise of GDP.
 
+```mermaid
+---
+title: Life Expectancy Relation to Growth
+---
+flowchart LR
+ A["Life Expectancy: HDI "] --#43;--> B["Education"]--#43;--> C["Economic Growth"]
+A--#43;--> D["GDP"]--#43;--> C
+B --#43;-->D
+```
 
 
 ## Paper 3
