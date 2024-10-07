@@ -22,9 +22,9 @@ Theory: With the start of the Industrial Revolution, most European countries emb
 
 _Citation_: Appiah, Michael, Richard Amoasi, and Doreen Idan Frowne. "Human development and its effects on economic growth and development." International Research Journal of Business Studies 12.2 (2019). 
 
-_Link_: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=economic+growth+and+development&oq=economic+growth+ - Please visit the third document, a pdf from accdemia
+_Link_: https://www.academia.edu/download/96351636/0337e207b678e2970216f28febbe9f16748f.pdf 
 > [!NOTE]
-> (cannnot copy/paste the link, hence need to do it the long way)
+> (New Link - works now)
 
 _Big Picture Question_: How does the Human Development Index specifically impact GDP growth in African countries between 1990 and 2015?
 
