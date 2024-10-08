@@ -18,6 +18,15 @@ Hypothesis: How did technological advancements increase the scale of industrial 
 
 Theory: With the start of the Industrial Revolution, most European countries embraced new technology, leading to more jobs and increased income. Britain, as the leading nation, saw a rise in per capita revenue, followed by other countries. Japan and many African nations were late to industrialize and are still catching up
 
+```mermaid
+---
+title: Technological Innovation Influence on Growth
+---
+flowchart LR
+ A["Technological Advancements "] --#43;--> B["Industrial Output"]--#43;--> C["Economic Growth"]
+A--#43;--> D["Manufacturing Employment"]--#43;--> C
+```
+
 ## Paper 2
 
 _Citation_: Appiah, Michael, Richard Amoasi, and Doreen Idan Frowne. "Human development and its effects on economic growth and development." International Research Journal of Business Studies 12.2 (2019). 
