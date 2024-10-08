@@ -83,8 +83,6 @@ Citation: Helleiner, Gerald K. "Direct foreign investment and manufacturing for 
 Link: https://link.springer.com/chapter/10.1007/978-1-349-09416-5_6
 
 ## Paper 7 
-
-Summary 7: 
 _Citation_: Nahar, Syfun, and Brett Inder. "Testing convergence in economic growth for OECD countries." Applied Economics 34.16 (2002): 2011-2022. 
 Link - https://www.tandfonline.com/doi/abs/10.1080/00036840110117837
 
