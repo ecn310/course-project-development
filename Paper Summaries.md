@@ -81,3 +81,19 @@ Link: https://www.sciencedirect.com/science/article/pii/0305750X82900018
 Citation: Helleiner, Gerald K. "Direct foreign investment and manufacturing for export in developing countries: a review of the issues." Policies for Development: Essays in Honour of Gamani Corea (1988): 123-153.
 
 Link: https://link.springer.com/chapter/10.1007/978-1-349-09416-5_6
+
+## Paper 7 
+
+Summary 7: 
+_Citation_: Nahar, Syfun, and Brett Inder. "Testing convergence in economic growth for OECD countries." Applied Economics 34.16 (2002): 2011-2022. 
+Link - https://www.tandfonline.com/doi/abs/10.1080/00036840110117837
+
+_Big Picture Question_: How does the new test procedure proposed in the article enhance the understanding of absolute convergence among countries, and why are standard unit root or cointegration tests with Bernard and Durlauf's definition of convergence considered inappropriate?
+
+_Specific Question_: How does the new test procedure address inconsistencies in convergence testing among OECD countries, and what does it reveal about the economic performance of countries?
+
+_Theory_: 
+
+_Hypothesis_: Countries with lower initial per capita GDP are more likely to converge towards the group mean, while countries with higher initial per capita GDP may exhibit divergence from the economic leader (USA). 
+
+
