@@ -67,7 +67,17 @@ Citation:  Gustav Ranis, et al. “Economic Growth and Human Development.” Wor
 
 Link: https://www.sciencedirect.com/science/article/pii/S0305750X9900131X
 
-
+```mermaid
+---
+title: Economic Growth Impact on Human Development
+---
+flowchart LR
+    A["Economic Growth"] -- ﬂ°°43¶ß --> B["Income Allocation"] & D["Expenditure on HD"]
+    B -- ﬂ°°43¶ß --> C["Human Development"]
+    C -- ﬂ°°43¶ß --> E["Labor Force"]
+    D -- ﬂ°°43¶ß --> C
+```
+    
 ## Paper 5
 
 Citation:  Schmitz, Hubert. "Growth constraints on small-scale manufacturing in developing countries: a critical review." World development 10.6 (1982): 429-450.
