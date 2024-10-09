@@ -82,6 +82,17 @@ Citation: Helleiner, Gerald K. "Direct foreign investment and manufacturing for 
 
 Link: https://link.springer.com/chapter/10.1007/978-1-349-09416-5_6
 
+Big Picture Question: What is the role of direct foreign investment in the development of export-oriented manufacturing in developing countries?
+
+Specific Question: How effective is direct foreign investment in promoting stable development finance, structural adjustment, and export-oriented growth, and what policies enhance or hinder its impact?
+
+Theory: Direct foreign investment serves as a crucial source of external finance and expertise for developing countries, especially in manufacturing for export
+
+Hypotheses:
+- Relaxing policies and incentivizing FDI will encourage investment flows and improve export performance.
+- FDI is more likely to benefit developing countries that have outward-oriented economic policies, stable political climates, and favorable conditions for foreign investors.
+- Different forms of investment, such as joint ventures or non-equity partnerships, may be more beneficial than traditional majority-owned FDI, especially in manufacturing for export.
+
 
 ## Paper 7 
 https://www.sciencedirect.com/science/article/abs/pii/S0305750X16302613
