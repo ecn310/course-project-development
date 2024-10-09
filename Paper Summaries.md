@@ -82,16 +82,28 @@ Citation: Helleiner, Gerald K. "Direct foreign investment and manufacturing for 
 
 Link: https://link.springer.com/chapter/10.1007/978-1-349-09416-5_6
 
+
 ## Paper 7 
-_Citation_: Nahar, Syfun, and Brett Inder. "Testing convergence in economic growth for OECD countries." Applied Economics 34.16 (2002): 2011-2022. 
-Link - https://www.tandfonline.com/doi/abs/10.1080/00036840110117837
+https://www.sciencedirect.com/science/article/abs/pii/S0305750X16302613
 
-_Big Picture Question_: How does the new test procedure proposed in the article enhance the understanding of absolute convergence among countries, and why are standard unit root or cointegration tests with Bernard and Durlauf's definition of convergence considered inappropriate?
+## Paper 8 
+_Citation_: Szirmai, Adam. "Manufacturing and economic development." Pathways to industrialization in the twenty-first century: New challenges and emerging paradigms (2013): 53-75.
 
-_Specific Question_: How does the new test procedure address inconsistencies in convergence testing among OECD countries, and what does it reveal about the economic performance of countries?
+_Link_: https://books.google.ca/books?hl=en&lr=&id=XlxDKcxkWBMC&oi=fnd&pg=PA53&dq=development+and+manufacturing+growth&ots=XQ4zu8vlyY&sig=c2I1FWSXf92-rCv_cJe7XDrntjk
 
-_Theory_: 
+_Big Picture question_: What are the impacts of services on the manufacturing market?
 
-_Hypothesis_: Countries with lower initial per capita GDP are more likely to converge towards the group mean, while countries with higher initial per capita GDP may exhibit divergence from the economic leader (USA). 
+_Specific Question_: How does development change in countries that have shifted form agricultural production to more that are service oriented?
 
+_Theory_: While the industrial revolution played a key role in countries' development, the shift now from agricultural (primary sector) to a services market (tertiary sector) the paper tries to explore to what extent manufacturing is affected due to these changes. 
 
+_Hypothesis_: As industrial production (output) increases, employment will potentially increase. 
+
+```mermaid
+---
+title: Employment through manufacturing
+---
+flowchart LR
+ A["Industrial Output  "] --#43;--> B["Services/Goods"]--#43;--> C["Employment"]
+
+```
