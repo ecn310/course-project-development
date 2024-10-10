@@ -60,12 +60,34 @@ Citation: Maddison A. A Comparison of Levels of GDP Per Capita in Developed and 
 
 Link: https://www.cambridge.org/core/journals/journal-of-economic-history/article/comparison-of-levels-of-gdp-per-capita-in-developed-and-developing-countries-17001980/B2EE78543292CA758F00E60E6988E23F
 
+_How I found this paper_: I made a detailed search on Google Scholar.
+
+_Big Picture Question_: How has the per capita income gap between developing and developed countries changed and evolved over time, specifically before the Industrial Revolution happened? 
+
+_Specific Question_: Did Western Europe always possess a significant wealth advantage over developing regions in the 18th century or did this advantage only start during the Industrial Revolution?
+
+_Theory_: The pre-Industrial Revolution wealth of Western Europe is a result of centuries of investment, exploitation of resources, and financial and technological advancements, which led to an economic lead that widened the income gap with developing countries.
+
+_Hypothesis_: Western Europe has always had a significant per capita income lead over developing countries, even before the Industrial Revolution.
+
+
 
 ## Paper 4
 
 Citation:  Gustav Ranis, et al. “Economic Growth and Human Development.” World Development, Pergamon, 2 Feb. 2000, 
 
 Link: https://www.sciencedirect.com/science/article/pii/S0305750X9900131X
+
+_How I found this paper_: I found this paper by making a detailed search on Google Scholar.
+
+_Big picture question_: How does economic growth relate to human development in policy planning and how does this relationship interconnect them? 
+
+_Specific question_: By understanding the independence between EG and HD through data and empirical evidence how can we address policing priorities between growth and development?
+
+_Hypothesis_: Policy sequencing matters, especially by prioritizing human development to economic growth to contribute to growth in the long term, while countries that might prioritize the latter might fall into underdevelopment. 
+
+_Theory_: There is a strong relationship between economic growth and human development suggesting that they influence and reinforce each other in what can either become a vicious or virtuous cycle.  
+
 
 ```mermaid
 ---
