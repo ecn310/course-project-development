@@ -6,17 +6,17 @@ Current Research Q: how has the link between manufacturing employment and econom
 Szirmai, Adam. “Industrialisation as an Engine of Growth in Developing Countries, 1950–2005.” Structural Change and Economic Dynamics, vol. 23, no. 4, Dec. 2012, pp. 406–420, 
 https://doi.org/10.1016/j.strueco.2011.01.005. 
 
-How I found this paper: provided by Professor Shifa 
+_How I found this paper_: provided by Professor Shifa 
 
-Big picture question: How has manufacturing employment contributed to economic growth across different regions, and how has this contribution shifted in recent decades?
+_Big picture question_: How has manufacturing employment contributed to economic growth across different regions, and how has this contribution shifted in recent decades?
 
-Hypothesis: While manufacturing has historically driven economic growth in developing countries, there is a growing divergence of manufacturing employment from economic growth, specifically in the face of globalization and the rise of the service sector in many regions.
+_Hypothesis_: While manufacturing has historically driven economic growth in developing countries, there is a growing divergence of manufacturing employment from economic growth, specifically in the face of globalization and the rise of the service sector in many regions.
 
-Specific question: How did technological advancements during the Industrial Revolution boost industrial output and economic growth in nations like Britain, while leaving others like Japan and African countries behind? 
+_Specific question_: How did technological advancements during the Industrial Revolution boost industrial output and economic growth in nations like Britain, while leaving others like Japan and African countries behind? 
 
-Hypothesis: How did technological advancements increase the scale of industrial production which in turn impacted economic growth?
+_Hypothesis_: How did technological advancements increase the scale of industrial production which in turn impacted economic growth?
 
-Theory: With the start of the Industrial Revolution, most European countries embraced new technology, leading to more jobs and increased income. Britain, as the leading nation, saw a rise in per capita revenue, followed by other countries. Japan and many African nations were late to industrialize and are still catching up
+_Theory_: With the start of the Industrial Revolution, most European countries embraced new technology, leading to more jobs and increased income. Britain, as the leading nation, saw a rise in per capita revenue, followed by other countries. Japan and many African nations were late to industrialize and are still catching up
 
 ```mermaid
 ---
@@ -34,6 +34,8 @@ _Citation_: Appiah, Michael, Richard Amoasi, and Doreen Idan Frowne. "Human deve
 _Link_: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C33&q=economic+growth+and+development&oq=
 > [!NOTE]
 > (The direct link shows an error - so to access the pdf, please click on the link above and go to the third link, which is an academia pdf. )
+
+_How I found this paper_: Detailed search on Google Scholar.
 
 _Big Picture Question_: How does the Human Development Index specifically impact GDP growth in African countries between 1990 and 2015?
 
@@ -100,15 +102,9 @@ flowchart LR
     D -- ﬂ°°43¶ß --> C
 ```
     
+
+
 ## Paper 5
-
-Citation:  Schmitz, Hubert. "Growth constraints on small-scale manufacturing in developing countries: a critical review." World development 10.6 (1982): 429-450.
-
-
-Link: https://www.sciencedirect.com/science/article/pii/0305750X82900018
-
-
-## Paper 6
 
 Citation: Helleiner, Gerald K. "Direct foreign investment and manufacturing for export in developing countries: a review of the issues." Policies for Development: Essays in Honour of Gamani Corea (1988): 123-153.
 
@@ -126,10 +122,10 @@ Hypotheses:
 - Different forms of investment, such as joint ventures or non-equity partnerships, may be more beneficial than traditional majority-owned FDI, especially in manufacturing for export.
 
 
-## Paper 7 
+## Paper 6 
 https://www.sciencedirect.com/science/article/abs/pii/S0305750X16302613
 
-## Paper 8 
+## Paper 7 
 
 _Citation_: Szirmai, Adam. "Manufacturing and economic development." Pathways to industrialization in the twenty-first century: New challenges and emerging paradigms (2013): 53-75.
 
