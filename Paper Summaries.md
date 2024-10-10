@@ -123,7 +123,19 @@ Hypotheses:
 
 
 ## Paper 6 
-https://www.sciencedirect.com/science/article/abs/pii/S0305750X16302613
+
+_Citation_: Haraguchi, Nobuya, et al. “The Importance of Manufacturing in Economic Development: Has This Changed?” World Development, vol. 93, May 2017, pp. 293–315, www.sciencedirect.com/science/article/pii/S0305750X16302613, https://doi.org/10.1016/j.worlddev.2016.12.013.
+‌
+_How I found this paper_: I found this paper by making a detailed search on Google Scholar 
+
+_Big picture question_: How has manufacturing’s  role in economic development and growth, in developing countries, changed over the last 25 years? 
+
+_Specific question_: Has the importance of manufacturing declined in terms of employment, growth, and value-added gone down due to global shifts or concentration in a few populous countries? 
+
+_Theory_: Industrialization still remains a key factor of economic growth and development, but manufacturing has only become concentrated in a few countries, it hasn't diminished overall. 
+
+_Hypothesis_: The decline in manufacturing in developing regions is not due to a reduction in global opportunities, but due to the fact that manufacturing is concentrated in a number of  populous nations. 
+
 
 ## Paper 7 
 
