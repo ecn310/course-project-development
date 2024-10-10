@@ -108,15 +108,18 @@ Hypotheses:
 https://www.sciencedirect.com/science/article/abs/pii/S0305750X16302613
 
 ## Paper 8 
+
 _Citation_: Szirmai, Adam. "Manufacturing and economic development." Pathways to industrialization in the twenty-first century: New challenges and emerging paradigms (2013): 53-75.
+
+_Paper Location_: I found the article from Google Scholar, searching using specific questions. 
 
 _Link_: https://books.google.ca/books?hl=en&lr=&id=XlxDKcxkWBMC&oi=fnd&pg=PA53&dq=development+and+manufacturing+growth&ots=XQ4zu8vlyY&sig=c2I1FWSXf92-rCv_cJe7XDrntjk
 
 _Big Picture question_: What are the impacts of services on the manufacturing market?
 
-_Specific Question_: How does development change in countries that have shifted form agricultural production to more that are service oriented?
+_Specific Question_: How does development change in countries that have shifted from agricultural production to more that are service-oriented?
 
-_Theory_: While the industrial revolution played a key role in countries' development, the shift now from agricultural (primary sector) to a services market (tertiary sector) the paper tries to explore to what extent manufacturing is affected due to these changes. 
+_Theory_: While the industrial revolution played a key role in countries' development, the shift now from agricultural (primary sector) to a services market (tertiary sector), the paper tries to explore to what extent manufacturing is affected due to these changes. 
 
 _Hypothesis_: As industrial production (output) increases, employment will potentially increase. 
 
