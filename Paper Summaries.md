@@ -116,10 +116,18 @@ Specific Question: How effective is direct foreign investment in promoting stabl
 
 Theory: Direct foreign investment serves as a crucial source of external finance and expertise for developing countries, especially in manufacturing for export
 
-Hypotheses:
-- Relaxing policies and incentivizing FDI will encourage investment flows and improve export performance.
-- FDI is more likely to benefit developing countries that have outward-oriented economic policies, stable political climates, and favorable conditions for foreign investors.
-- Different forms of investment, such as joint ventures or non-equity partnerships, may be more beneficial than traditional majority-owned FDI, especially in manufacturing for export.
+Hypothesis: As FDI increases, so does political stability, exports, and standards of living.
+
+
+
+```mermaid
+---
+title: Role of direct foreign investment in the development of export-oriented manufacturing in developing countries?
+---
+flowchart LR
+ A["Foreign Direct Investment "] --#43;--> B["Exports"]--#43;--> C["Economic Growth"]
+A--#43;--> D["Social Stability"]--#43;--> C
+```
 
 
 ## Paper 6 
