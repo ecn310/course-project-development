@@ -72,6 +72,14 @@ _Theory_: The pre-Industrial Revolution wealth of Western Europe is a result of 
 
 _Hypothesis_: Western Europe has always had a significant per capita income lead over developing countries, even before the Industrial Revolution.
 
+```mermaid
+---
+title: Pre-Industrial Origins of the Income Gap
+---
+flowchart LR
+ A["Investments "] --#43;--> B["Exploitation of Resources"]--#43;--> C["Income Gap"]
+A--#43;--> D["Financial and Technological Advancements"]--#43;--> C
+```
 
 
 ## Paper 4
