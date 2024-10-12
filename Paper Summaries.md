@@ -152,6 +152,14 @@ _Theory_: Industrialization still remains a key factor of economic growth and de
 
 _Hypothesis_: The decline in manufacturing in developing regions is not due to a reduction in global opportunities, but due to the fact that manufacturing is concentrated in a number of  populous nations. 
 
+```mermaid
+---
+title: The link between demographic concentration and manufacturing
+---
+flowchart LR
+ A["Population Concentration"] --#43;--> B["Manufacturing"]--#43;--> C["Economic Growth"]
+```
+
 
 ## Paper 7 
 
