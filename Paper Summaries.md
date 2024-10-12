@@ -50,11 +50,9 @@ _Theory_: The introduction argues that increased access to education, sanitation
 title: Life Expectancy Relation to Growth
 ---
 flowchart LR
- A["Life Expectancy: HDI + Education + Income "] --#43;--> B["HDI"]--#43;--> C["Economic Growth"]
-A--#43;--> D["GDP"]--#43;--> C
-B --#43;-->D
-```
+ A["Life Expectancy "] --#43;--> B["Employment"]--#43;--> C["Economic Growth"]
 
+```
 
 ## Paper 3
 
@@ -158,30 +156,4 @@ title: The link between demographic concentration and manufacturing
 ---
 flowchart LR
  A["Population Concentration"] --#43;--> B["Manufacturing"]--#43;--> C["Economic Growth"]
-```
-
-
-## Paper 7 
-
-_Citation_: Szirmai, Adam. "Manufacturing and economic development." Pathways to industrialization in the twenty-first century: New challenges and emerging paradigms (2013): 53-75.
-
-_Paper Location_: I found the article from Google Scholar, searching using specific questions. 
-
-_Link_: https://books.google.ca/books?hl=en&lr=&id=XlxDKcxkWBMC&oi=fnd&pg=PA53&dq=development+and+manufacturing+growth&ots=XQ4zu8vlyY&sig=c2I1FWSXf92-rCv_cJe7XDrntjk
-
-_Big Picture question_: What are the impacts of services on the manufacturing market?
-
-_Specific Question_: How does development change in countries that have shifted from agricultural production to more that are service-oriented?
-
-_Theory_: While the industrial revolution played a key role in countries' development, the shift now from agricultural (primary sector) to a services market (tertiary sector), the paper tries to explore to what extent manufacturing is affected due to these changes. 
-
-_Hypothesis_: As industrial production (output) increases, employment will potentially increase. 
-
-```mermaid
----
-title: Employment through manufacturing
----
-flowchart LR
- A["Industrial Output  "] --#43;--> B["Services/Goods"]--#43;--> C["Employment"]
-
 ```
