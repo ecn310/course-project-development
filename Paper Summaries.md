@@ -92,7 +92,7 @@ _Big picture question_: How does economic growth relate to human development in 
 
 _Specific question_: By understanding the independence between EG and HD through data and empirical evidence how can we address policing priorities between growth and development?
 
-_Hypothesis_: Policy sequencing matters, especially by prioritizing human development to economic growth to contribute to growth in the long term, while countries that might prioritize the latter might fall into underdevelopment. 
+_Hypothesis_: If human development is prioritized, it will lead to an increase in economic growth, which will then contribute to growth and development in the long term.  
 
 _Theory_: There is a strong relationship between economic growth and human development suggesting that they influence and reinforce each other in what can either become a vicious or virtuous cycle.  
 
