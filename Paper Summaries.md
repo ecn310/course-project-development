@@ -82,7 +82,7 @@ A--#43;--> D["Financial and Technological Advancements"]--#43;--> C
 
 ## Paper 4
 
-Citation:  Gustav Ranis, et al. “Economic Growth and Human Development.” World Development, Pergamon, 2 Feb. 2000, 
+Citation:  Gustav Ranis, Frances Stewart, and Alejandro Ramirez. “Economic Growth and Human Development.” World Development, Pergamon, 2 Feb. 2000, 
 
 Link: https://www.sciencedirect.com/science/article/pii/S0305750X9900131X
 
