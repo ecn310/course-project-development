@@ -13,3 +13,5 @@ We might use some of the graph and explanations that we have on the following ex
 Do- file to transform Penn World Table Data: https://github.com/ecn310/course-project-development/blob/main/Penn%20World%20Table%20(PWT)%20version%2010.01.do
 
 Do- file to transform World Bank Data: https://github.com/ecn310/course-project-development/blob/main/WDI_edited.do
+
+Paper summaries finalized with mermaid charts: https://github.com/ecn310/course-project-development/blob/main/Paper%20Summaries.md
