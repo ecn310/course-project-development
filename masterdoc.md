@@ -1,8 +1,8 @@
-Data Acquisition 1 (World Bank) can be found under the link
+Raw Data Acquisition 1 (World Bank) can be found under the link
 
 https://github.com/ecn310/course-project-development/blob/main/Data/WDI%20reshaped.dta
 
-Data Acquisition 2 (Penn World Table (PWT) version 10.01)} can be found under the link
+Raw Data Acquisition 2 (Penn World Table (PWT) version 10.01)} can be found under the link
 
 https://github.com/ecn310/course-project-development/blob/main/Data/Data%202.%20(Penn%20World%20Table%20(PWT)%20version%2010.01)%20(2).dta
 
