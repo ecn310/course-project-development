@@ -17,3 +17,5 @@ Do- file to transform World Bank Data: https://github.com/ecn310/course-project-
 Paper summaries finalized with mermaid charts: https://github.com/ecn310/course-project-development/blob/main/Paper%20Summaries.md
 
 Timeline for group: https://github.com/ecn310/course-project-development/issues/13
+
+Data.tex updated: https://github.com/ecn310/course-project-development/blob/main/data.tex
