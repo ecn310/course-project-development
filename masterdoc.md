@@ -9,3 +9,5 @@ https://github.com/ecn310/course-project-development/blob/main/Data/Data%202.%20
 Our working hypothesis and theory can be found here: https://github.com/ecn310/course-project-development/issues/8
 
 We might use some of the graph and explanations that we have on the following exercises repository https://github.com/ecn310/exercises/discussions/11
+
+Do- file to transform World Bank Data: https://github.com/ecn310/course-project-development/blob/main/Penn%20World%20Table%20(PWT)%20version%2010.01.do
