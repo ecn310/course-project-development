@@ -15,3 +15,5 @@ Do- file to transform Penn World Table Data: https://github.com/ecn310/course-pr
 Do- file to transform World Bank Data: https://github.com/ecn310/course-project-development/blob/main/WDI_edited.do
 
 Paper summaries finalized with mermaid charts: https://github.com/ecn310/course-project-development/blob/main/Paper%20Summaries.md
+
+Timeline for group: https://github.com/ecn310/course-project-development/issues/13
