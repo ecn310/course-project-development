@@ -24,116 +24,6 @@ bookmarksnumbered=false,
 pdfview=fitH,
 bookmarksopen=true,hyperfootnotes=false]{hyperref}
 
-
-
-\begin{document}
-\title{Insert group name here}
-% add a fourth name if you have four team members; fill in at least first names below
-\author{Name 1\thanks{Syracuse University, Economics Department. Email: } \and Name 2\thanks{abc} \and Name 3\thanks{abc}}
-\date{\vskip-.1in \today}
-\maketitle
-
-\vskip.3in
-
-\section{Research Question} \label{sec:question}
-
-State the current version of your research question.
-
-\section{Data Overview} \label{sec:literature}
-
-Write a short description of each  data set. Use subsections as demonstrated below if you have more than one data set.
-
-\subsection{Data Set 1 (insert a descriptive title)}
-\begin{itemize}
-  \item What is the source of the data?
-  \item How was it generated? Some possibilities: Did someone do a survey? Do people submit their own information? Did an organization compile it from public reports? 
-  \item What is the coverage of the data?
-    \begin{itemize}
-        \item What years?
-        \item What kind of observations (countries? individual survey respondents? etc)
-        \item Scope (e.g., if countries, only developed countries?)
-    \end{itemize}
-  \item Number of variables
-    \begin{itemize}
-        \item Types of variables,  (is this dataset giving mainly economic indicators for a country? Is it reporting details about 911 calls?
-    \end{itemize}
-  \item How many observations total? (e.g., 20 countries with 10 variables each, for a total of 100 observations)
-\end{itemize}
-
-\subsection{Data Set 2 (insert a descriptive title)}
-
-Answer all the same questions as in the previous subsection. \\
-
-\noindent Add additional subsections if you have more than two data sets.
-
-
-\section{Data Acquisition}
-\label{sec:theory}
-
-Explain how someone can acquire each dataset (you may need to use subsections again).
-\begin{itemize}
-    \item This should be in EXCRUCIATING detail: every click someone has to execute to get the dataset as you have it
-\end{itemize}
-
-\noindent Where have YOU stored the data? Include link(s).
-\begin{itemize}
-    \item Example of how to make a url into an explicit link: \url{https://github.com/ecn310/course-project-zipcentercrime/tree/main/ArcGIS%20files}
-    \item Example of how to make a piece of text into a hyperlink: \href{https://github.com/ecn310/course-project-zipcentercrime/tree/main/ArcGIS%20files}{ArcGIS files}
-    \item If your code and documentation is in a different location, where is it?
-\end{itemize}
-
-
-\section{Data Manipulation}
-\label{sec:data}
-
-What steps have you taken / do you plan to take to get the data ready for analysis? 
-\begin{itemize}
-    \item Examples: checking for outliers; dropping some observations you don't need; investigating something you've already noticed that doesn't make sense.
-    \item If you've already done some work, where are the files and documentation for that work?
-\end{itemize}
-
-\section{Linking Datasets}
-\label{sec:discussion}
-
-How you will link different data sets together (if you'll need to)
-\begin{itemize}
-    \item What variable(s) in each dataset will you use to merge the datasets together?
-    \item Example: We will merge Dataset A with GDP for each country with Dataset B that has manufacturing employment for each country across years. In Dataset A, these variables are called \textit{year} and \emph{country}; Dataset B calls the year variable \emph{yr} and the country variable \emph{name}.
-\end{itemize}
-
-
-\section{Key Variables}
-\label{sec:result}
-
-List of key variables you may use for testing your hypothesis, separately for each dataset
-
-#What We Currently Have!
-\documentclass[12pt]{article}
-
-% set margins and spacing
-\addtolength{\textwidth}{1.3in}
-\addtolength{\oddsidemargin}{-.65in} %left margin
-\addtolength{\evensidemargin}{-.65in}
-\setlength{\textheight}{9in}
-\setlength{\topmargin}{-.5in}
-\setlength{\headheight}{0.0in}
-\setlength{\footskip}{.375in}
-\renewcommand{\baselinestretch}{1.0}
-\linespread{1.0}
-
-% load miscellaneous packages
-\usepackage{csquotes}
-\usepackage[american]{babel}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{graphicx,amsbsy,amssymb, amsmath, amsthm, MnSymbol,bbding,times, verbatim,bm,pifont,pdfsync,setspace,natbib}
-
-% enable hyperlinks and table of contents
-\usepackage[pdftex,
-bookmarks=true,
-bookmarksnumbered=false,
-pdfview=fitH,
-bookmarksopen=true,hyperfootnotes=false]{hyperref}
-
 \begin{document}
 \title{Development}
 % add a fourth name if you have four team members; fill in at least first names below
@@ -157,6 +47,7 @@ The World Development Indicators dataset has been sourced from international org
 \subsection{Data Set 2 (Penn World Table (PWT) version 10.01)}
 
  The data for this dataset comes from the Penn World Table (PWT), a comprehensive database compiled by economists Robert C. Feenstra, Robert Inklaar, and Marcel P. Timmer, which is widely used for comparing income, output, input, and productivity across countries. The PWT dataset is generated by the University of Groningen from various public economic reports and national accounts data, making it reliable for macroeconomic analysis. The period from 1950 to 2019 includes observations for 183 countries, providing a global scope that provides data for both developed and developing economies. With over 50 variables, the dataset offers detailed insights into economic indicators such as Real GDP, employment, population, human capital, price levels, and productivity measures. The dataset offers approximately 12,700 country-year observations, making it an invaluable tool for researchers studying economic performance, national productivity, and growth across different regions and time periods.
+
 
 
 \section{Data Acquisition}
@@ -192,14 +83,15 @@ All data is stored in the \href{https://github.com/ecn310/course-project-develop
 \label{sec:data}
 
 To prepare the data for an accurate analysis, we plan to follow a series of standardized steps on which we can expand on subsequently. Firstly, we import the data in Stata. We then check for outliers using the command "codebook" to verify the integrity of the data, either replacing the missing information with a known value or, if this is not available, deleting the variable from our dataset.  For WDI data, we reshaped it wide to long for easier interpretation and to identify the right values as our variables. 
-The data set is integral, in order for us to tabulate certain variables for improved readability and to form initial causal links. We are working with variables, such as GDP, GNI per capita, population growth, total employment, and life expectancy across both data sets. A correlation test to compare developing to developed countries in both data sets will be done, and we will graph our two main variables, which are GNI per capita and manufacturing employment. In a comparative analysis, we would use "codebook" to establish how often a variable is present in a dataset, and also to be able to derive and analyze the mean, median, and standard variation.
+The data set is integral, in order for us to tabulate certain variables for improved readability and to form initial causal links. We are working with variables, such as GDP, GNI per capita, population growth, total employment, and life expectancy across both data sets. A correlation test will be conducted to compare developing to developed countries in both data sets, and we will graph our two main variables, GNI per capita and manufacturing employment. In a comparative analysis, we would use "codebook" to establish how often a variable is present in a dataset, and also to be able to derive and analyze the mean, median, and standard variation.
 
 
 \href{https://github.com/ecn310/course-project-development/blob/main/WDI.do}{Data 1 do-file} 
 
 \href{https://github.com/ecn310/course-project-development/blob/main/Penn%20World%20Table%20(PWT)%20version%2010.01.do}{Data 2 do-file} 
 
-Specifically to WDI data, we  must first include all countries across all available years, and only the variables listed in the Key variables listed below for Data Set 1. Once the excel file has been downloaded, we import it into stata and proceed to reshape it for easier interpretation. To manipulate the data accordingly, we first drop SeriesCode for simplicity. 
+Specifically to WDI data, we must first deselect all, and then select to include all countries across all available years, and only the variables listed in the Key variables listed below for Data Set 1: GNI per capita, PPP (current international in USD) - Ratio Scale, Population growth: annual percent -  Ratio Scale,  Life expectancy - Nominal/Ratio Scale. Once the Excel file has been downloaded, we import it into Stata and proceed to reshape it for easier interpretation. Steps to follow to reshape the data can be found here: \href{https://github.com/ecn310/course-project-development/blob/main/WDI.do}{Data 1 do-file}.
+Once the data has been reshaped, it can be downloaded as a dta file. Note that should you wish to include more variables, the steps to follow in Stata remain largely unaltered, but other variables must be selected prior to downloading the spreadsheet from the WDI website. 
 
 
 \section{Linking Datasets}
@@ -210,6 +102,7 @@ We will merge the World Bank World Development Indicators, which contains popula
 
 \section{Key Variables}
 \label{sec:result}
+
 
 \subsection{Data Set 1 (World Bank: World Development Indicators)}
 
@@ -225,12 +118,6 @@ We will merge the World Bank World Development Indicators, which contains popula
    \item emp: Total employment, providing insight into labor market trends. - Ratio Scale 
    \item pop: Population, to calculate per capita measures like GDP per capita. - Ratio Scale
 \end{itemize}
-
-
-\end{document}
-
-
-
 
 
 \end{document}
