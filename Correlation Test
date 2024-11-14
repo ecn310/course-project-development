@@ -1,0 +1,23 @@
+use "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data\Data 2. (Penn World Table (PWT) version 10.01) (2).dta"
+codebook emp
+correlate emp rgdpo
+pwcorr emp rgdpo, sig
+scatter rgdpo emp
+graph export "C:\Users\meiska\OneDrive - Syracuse University\310 Class\Dataset 2\Graph.png", as(png) name("Graph")
+use "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data\WDI reshaped.dta"
+correlate gni id
+correlate id gni
+correlate id lifexp
+codebook lifexp
+encode lifexp, gen(newlifexp_numeric)
+codebook popgr
+encode popgr, gen(popgr_numeric)
+correlate newlifexp popgr
+codebook popgr
+encode popgr, gen(newpopgr_numeric)
+correlate newlifexp newpopgr
+scatter newlifexp newpopgr
+graph export "C:\Users\meiska\OneDrive - Syracuse University\310 Class\Dataset 2\Graph.png", as(png) name("Graph") replace
+pwcorr newlifexp newpopgr, sig
+pwcorr newlifexp newpopgr, listwise
+scatter newlifexp newpopgr

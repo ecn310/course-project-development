@@ -99,3 +99,11 @@ Additional sub-roles (e.g., Research Analyst, Editor) may be introduced for spec
 ## F. Additional Protocols
 - Fairness in Warnings: Before each warning is issued, the group should carefully consider whether the individual was given sufficient support or if other factors, such as workload distribution or personal challenges, may have contributed to their shortcomings.
 - Continuous Review: Throughout the project, the group will regularly assess if any members are struggling with their tasks or deadlines, allowing for early interventions and providing support before escalation is necessary.
+
+
+
+Signatures: 
+
+>Meghavarshini Iska 
+>Filippo Dona'
+>Lucia Rios-Luy
