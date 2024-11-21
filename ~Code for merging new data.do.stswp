@@ -19,7 +19,7 @@ use "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-proj
 
 sort entity year
 
-merge m:m country year using developedGDPpc.dta
+merge m:m entity year using developedGDPpc.dta
 
 save "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\developedmergedgdp_mftc.dta", replace
 
@@ -31,3 +31,28 @@ save "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-pro
 * sort
 
 * merge
+
+*new variblae added manufacturing employment: 
+import delimited "https://ourworldindata.org/grapher/manufacturing-share-of-total-employment.csv?v=1&csvType=filtered&useColumnShortNames=true&tab=chart&country=LUX~IRL~SGP~QAT~BMU~ARE~CHE~CYM~NOR~USA~SMR~DNK~NLD~BRN~HKG~AUT~ISL~SWE~DEU~BHR~BEL~MAC~AUS~SAU~KWT~CAN~FIN~FRA~MLT~GBR~KOR~NZL~CYP~JPN~ISR~ITA~ABW~CZE~SVN~ESP~LTU~EST~POL~PRT~GUY~HUN~OMN~BHS~HRV~PRI~PAN~SVK~TUR~LVA~ROU~GRC~KNA~MYS~RUS~BGR~KAZ~CHL~SYC~URY~TTO~CUW~MUS~ARG~ATG~MNE~CRI~MDV~SRB~TCA~MEX", clear
+ 
+ sort entity year
+ 
+save "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\developedMftc_Emp.dta", replace
+
+sort entity year
+ 
+use "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\developedMftc_Emp.dta", clear
+
+sort entity year
+
+* maybe: use "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\developedmergedgdp_mftc.dta", clear
+sort entity year
+save, replace
+
+
+merge m:m entity year using developedMftc_Emp.dta
+*or 
+merge 1:m entity year using developedMftc_Emp.dta
+
+
+save "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\developedMftc_Emp.dta", replace
