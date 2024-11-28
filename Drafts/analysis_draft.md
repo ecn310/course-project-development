@@ -43,8 +43,8 @@
 
 **Limitations**
 1. *Data Quality:*
-- The analysis relies on aggregated data, which may mask regional variations within countries.
-- The 2020 data, affected by the COVID-19 pandemic, introduces potential bias due to disruptions in labor markets; The graphs exclude this outlier
+- The analysis relies on aggregated data, which may mask important variation between countries.
+- The graph for manufacturing employment in developing countires varies and goes up and down so much, because there are countires that only have data for some years and not the entirety of years we are analyzing. 
 
 2. *Low R-Squared in Developed Economies:*
 - The regression model for developed economies has a relatively low R-squared (0.129), showing that other factors such as growth in the service sector play significant roles in GDP changes.
