@@ -1,4 +1,3 @@
-* Load the dataset
 use "C:\Users\spsotelo\OneDrive - Syracuse University\Documents\developingmergedgdp_mftc.dta", clear
 
 describe
