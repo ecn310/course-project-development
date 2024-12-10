@@ -46,6 +46,7 @@ bookmarksopen=true,hyperfootnotes=false]{hyperref}
 \end{quote}
 
 \bigskip
+
 \section{Introduction} \label{sec:introduction}
 
 Answer the questions
@@ -62,39 +63,55 @@ Answer the questions
 
 \section{Literature Review} \label{sec:literature}
 
-Discuss at least five papers that are closely related to your results (more is better). Explain how they're related. Did you find something similar, or different? Did you look at a different context? Different time period? Different level of detail?
+
+% Discuss at least five papers that are closely related to your results (more is better). Explain how they're related. Did you find something similar, or different? Did you look at a different context? Different time period? Different level of detail?
+
+Industrialization continues to be a critical driver of economic growth and development, but manufacturing has increasingly become concentrated in a few countries. The Industrial Revolution, which began in Britain around the late 18th century, catalyzed this economic shift, with nations like Britain leading in technological advancements and rising per capita incomes by the early 19th century (Allen, 2009). However, as of the 21st century, manufacturing sectors have become concentrated in specific regions, with developing nations like those in Africa and parts of Asia still struggling to catch up (Rodrik, 2016). Despite these disparities, the overall significance of industrialization has not diminished, but its unequal distribution continues to contribute to income gaps that emerged as early as the mid-19th century (Pomeranz, 2000).
 
 \section{Theoretical Analysis}
 \label{sec:theory}
-Optional--may include in intro if it's short.
+%Optional–may include in intro if it’s short.
+In this paper, we examine the hypothesis that there is a negative relationship between manufacturing employment and GDP; As manufacturing employment decreases, GDP increases. This idea stems from the economic transformation seen in advanced nations, where progress in technology and the rise of service-based industries have reduced reliance on manufacturing labor, yet continued to fuel GDP expansion. Developed economies, leveraging automation and innovation, achieve greater productivity with a smaller manufacturing workforce. In contrast, developing nations, which tend to have lower GDP per capita, still depend on labor-intensive manufacturing, reflecting their earlier stage of industrialization. This theoretical perspective forms the basis for our empirical investigation into the relationship between manufacturing employment and economic growth across different stages of development.
 
 
 \section{Data}
 \label{sec:data}
 
-Describe your data. Where you got it from, how it was generated, what variables you'll use, what data cleaning steps you had to take, where your processed data, code and documentation is stored.
 
-In a published paper, a lot of this detail will be in a data appendix. For the purposes of this report, include it all here (this may be the longest section of your report).
+The Our World in Data chart data gives us an overview of the different world indicators that estimate the position of each country's economy and development projection. Each data point is supposed to help show how manufacturing employment and economic growth rates have changed over the years using indicators for each country. Two variables, "Manufacturing jobs as a share of total employment" and "GDP per Capita," were sectioned into developing and developed to observe the effects of manufacturing employment on developing and developed countries' growth rates.
+
+The Our World in Data chart dataset has been sourced from international organizations, national statistical agencies, and multiple surveys that cover social, economic, and environmental indicators for nearly all countries from 1990 to the present day. It includes over a hundred variables, but the most important ones are GDP per capita and Manufacturing jobs as a share of total employment, which offer a detailed insight into development trends on a global scale. The number of variables and observations varies depending on the year, with data provided for up to 20,000 country-year combinations across more than one indicator. This data is crucial for policymakers as it offers critical insights and long-term patterns for development across different regions of the world.
+
+To find our data we opened the web browser, navigated to the Our World in Data website, \href{https://github.com/ecn310/course-project-development/issues/12}{Github folder} and clicked on the "Resources" section. We then looked up the first variable, "Manufacturing jobs as a share of total employment," Bank World Development Indicators Data Bank page. Once the variable has been selected, we chose the chart view, deselected all the pre-opted categories, and chose the "GDP per capita" filter in the "sort by" field. For our purposes, we have taken that any country with a GDP per Capita equal to or greater than 20,000 USD will be considered a developed country and below as developing. Once the data is categorized, we manually selected all countries, then click on the download, clicking on the "Data" option before downloading the data set completely. 
+
+To prepare the data for an accurate analysis, we plan to follow a series of standardized steps on which we can expand on subsequently. Firstly, we import the data in Stata from Our World in Data. We then check for outliers using the command "codebook" to verify the integrity of the data, either replacing the missing information with a known value or, if this is not available, deleting the variable from our dataset.  For OWD data, we reshaped it wide to long for easier interpretation and to identify the right values as our variables, we also took out the year 2020 as it caused some discrepancy to our data due to missing information during Covid. 
+
+The data set is integral, in order for us to tabulate certain variables for improved readability and to form initial causal links. We are working with variables, such as GDP, and manufacturing employment within the data set. A correlation test will be conducted to compare developing to developed countries and economies, and we will graph our two main variables, GDP and manufacturing employment. In a comparative analysis, we would use "codebook" to establish how often a variable is present in a dataset, and also to be able to derive and analyze the mean, median, and standard variation.
+
+
 
 \subsection{Survey data}
 
 \section{Results}
 \label{sec:result}
 
-Explain what analyses you did, provide evidence (like in the descriptive stats exercise, but refined and clear) and then explain what your results mean.
 
+The analysis evaluated the relationship between manufacturing employment and GDP per capita across developed and developing countries from 1990 to 2019. Descriptive statistics revealed distinct differences between the two groups. In developing countries, the mean manufacturing employment share was 10.5\%, with a standard deviation of 4.9\%, indicating relatively low levels of industrialization and significant variability among countries. The mean GDP per capita for developing nations was \$18,307, with a standard deviation of \$20,344, highlighting substantial economic disparity and uneven development. In contrast, developed countries had a higher mean manufacturing employment share of 14.2\% and a slightly higher standard deviation of 5.8\%, reflecting more advanced industrial structures with moderate variation. The mean GDP per capita in developed countries was significantly higher at \$40,364, with a standard deviation of \$21,944, suggesting greater economic stability and consistency.
 
+Graphical analysis further illustrated these trends. In developing countries, manufacturing employment shares exhibited fluctuations but generally declined after 2010, while GDP per capita followed a steady upward trajectory. This divergence suggests that economic growth in developing nations is increasingly influenced by factors beyond manufacturing, such as technological adoption or the expansion of service sectors. In developed countries, manufacturing employment shares consistently declined over the study period, reflecting ongoing de-industrialization. However, GDP per capita showed steady growth, showing the role of advanced industries and high-productivity sectors in sustaining economic progress.
+
+These findings provide evidence supporting the hypothesis that manufacturing plays a more significant role in driving economic growth in developing countries compared to developed ones. The positive correlation in developing countries highlights the importance of industrialization during early stages of economic development. In contrast, the negative correlation in developed nations reflects the global transition toward service-oriented economies. The results show the uneven benefits of industrialization across regions and suggest the potential need for targeted policies to promote equitable growth. For developing countries, industrialization remains a crucial pathway to reducing economic disparity, while developed countries should focus on diversifying their economies to sustain growth.
 
 
 \section{Discussion}
 \label{sec:discussion}
 
-Optional. This is where you would discuss any of the following
-\begin{itemize}
-    \item caveats (are there problems with the data that there are no obvious ways to resolve? if so, how might this impact
-    \item future work / next steps
-    \item implications of the results: that is, how your findings -- if they were causally identified -- might inform policymaking, etc.
-\end{itemize}
+
+The analysis relies on aggregate data, which may mask important variations between countries. Further, many developing countries lack continuous data, with some years not reporting any numbers, causing sudden fluctuations in manufacturing data and its visual representation. On a similar note, the time frame for developed economies (2000–2019) and developing economies (1990–2019) varies, potentially affecting the consistency of the analysis.
+In developed countries, the progressive switch to tertiary industries plays a significant role in GDP changes, as demonstrated by a relatively low R-squared (0.129).
+
+Further research should monitor future changes, directly seeking out data from respective government and independent sources, and filling in blanks.
+
 
 \section{Conclusion}
 \label{sec:conclusion}
