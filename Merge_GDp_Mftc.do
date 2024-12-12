@@ -39,3 +39,6 @@ log close
 * sort
 
 * merge
+
+*After merging to get a t-test for the developed countries 
+pwcorr Mft_sh_Developed gdp_Developed, sig
