@@ -40,5 +40,8 @@ log close
 
 * merge
 
+* For now we do not want data from years greater than 2019, therefore 
+drop if year > 2019
+
 *After merging to get a t-test for the developed countries 
 pwcorr Mft_sh_Developed gdp_Developed, sig
