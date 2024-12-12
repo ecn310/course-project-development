@@ -43,5 +43,9 @@ log close
 * For now we do not want data from years greater than 2019, therefore 
 drop if year > 2019
 
+
 *After merging to get a t-test for the developed countries 
 pwcorr Mft_sh_Developed gdp_Developed, sig
+
+* For the scatterplot of Developed 
+ twoway scatter gdp_Developed Mft_sh_Developed, title("Developed Countries") xtitle("Manufacturing") ytitle("GDP per Capita")
