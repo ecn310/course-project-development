@@ -10,4 +10,4 @@ use "developingManufacturing.dta", clear
 merge 1:1 entity year using developingGDPpc.dta
 save "developingmergedgdp_mftc.dta", replace
 drop if year > 2019
-pwcorr Mft_sh_Developed gdp_Developed, sig
+pwcorr Mft_sh_Developing gdp_Developing, sig
