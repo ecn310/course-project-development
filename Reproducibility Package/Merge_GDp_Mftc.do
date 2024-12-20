@@ -20,7 +20,7 @@ sort entity year
 
 save "developedGDPpc.dta", replace
 
-use "developed manufacturing.dta", clear
+use "developedManufacturing.dta", clear
 
 merge 1:1 entity year using developedGDPpc.dta
 
