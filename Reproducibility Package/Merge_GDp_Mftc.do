@@ -1,4 +1,4 @@
-cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development"
+cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package"
 
 log using Merge_GDP_Mftc, replace text
 
