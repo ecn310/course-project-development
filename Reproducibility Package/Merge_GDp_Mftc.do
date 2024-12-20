@@ -42,8 +42,8 @@ log close
 * First drop commands to drop years greater than 2019; 
 
 drop if year > 2019
-* To see the data, you can use the command (helps visualize the data set)
-codebook *and other presentations you can use 
+* To see the data, you can use the command (helps visualize the data set), and other presentations you can use 
+codebook 
 
 describe
 
