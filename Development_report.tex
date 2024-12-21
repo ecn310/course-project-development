@@ -53,17 +53,15 @@ growth. In contrast, the negative correlation in developed countries highlights 
 
 \section{Introduction} \label{sec:introduction}
 
-Answer the questions
-\begin{enumerate}
-    \item \textbf{Why should the reader care? / Why is the topic important?} (required)
-    \item Why did you choose this topic? (optional)
-    \item \textbf{What question will you answer? How will you do it?} (required)
-        \begin{enumerate}
-            \item If your theory/hypothesis fit in one paragraph, include it here. If it is longer, make it a separate section after the lit review. EITHER OPTION IS FINE as long as the length is sufficient/appropriate for your project.
-        \end{enumerate}
-    \item \textbf{What did you find?} (required)
-    \item \textbf{Give a "road map" of the paper. Where will the reader find the various parts of your work?} (required)
-\end{enumerate}
+Economic growth and development are two key terms in macroeconomics that have been studied by many, and it is vital to closely monitor and understand them to actualize and compose policies that drive development and growth in developing and developed countries. Our study examines the link between GDP growth and manufacturing employment. 
+
+Moreover, when executing our analysis of the data, we observed that the correlation is different in developed and developing countries. In developed countries, we can see a negative corelation, while a positive correlation exists within developing countries. As manufacturing employment decreases, GDP increases in developed regions, and as manufacturing employment increases, so does GDP per capita in developing countries.
+
+Our study hypothesizes that as GDP increases, there is a visible decrease in manufacturing employment, indicating a negative relationship between manufacturing employment and GDP. To reject our null hypothesis, we conducted a correlation test to compare our variables, GDP and manufacturing employment, across developing and developed countries. 
+gituhub 
+
+\textbf{Give a "road map" of the paper. Where will the reader find the various parts of your work?} (required)
+
 
 \section{Literature Review} \label{sec:literature}
 
@@ -81,42 +79,38 @@ This paper examines how manufacturing employment has affected growth development
 \section{Data}
 \label{sec:data}
 
+The Our World in Data chart dataset provides a comprehensive overview of various world indicators that estimate the position of each country's economy and development trajectory. This dataset has been sourced from the United Nations and multiple surveys covering social, economic, and environmental indicators for nearly all countries from 1990 to the present day. Each data point helps illustrate how manufacturing employment and GDP have changed over the years, using indicators for each country. For this analysis, we focused on two variables: \textit{``Manufacturing jobs as a share of total employment''} and \textit{``GDP per Capita,''} and categorized countries as developing or developed to observe the effects of manufacturing employment on growth rates.
 
-The Our World in Data chart data gives us an overview of the different world indicators that estimate the position of each country's economy and development projection. The Data chart dataset has been sourced from international organizations, national statistical agencies, and multiple surveys that cover social, economic, and environmental indicators for nearly all countries from 1990 to the present day Each data point is supposed to help show how manufacturing employment and GDP have changed over the years using indicators for each country. We sectioned two variables, ``Manufacturing jobs as a share of total employment'' and ``GDP per Capita,'' into developing and developed to observe the effects of manufacturing employment on developing and developed countries' growth rates.
+\subsection{Data Scope and Definitions}
+To ensure a clear comparison, we defined developed countries as those with a GDP per Capita equal to or greater than 20,000 USD and developing countries as those below this threshold. Additionally, we limited our analysis to data from 1990 to 2019 to avoid distortions caused by the COVID-19 pandemic.
 
-The Our World in Data set includes over a hundred variables, but we solely focus on GDP per capita and Manufacturing jobs as a share of total employment, which offer a detailed insight into development trends on a global scale. The data provided in this data is crucial for policymakers as it offers critical insights and long-term patterns for development across different regions of the world.
+\subsection{Summary Statistics}
+To provide an overview of the dataset, we calculated descriptive statistics for each group of countries. These statistics, shown in Table~\ref{tab:summary-stats}, include the mean, median, and standard deviation for \textit{Manufacturing Employment Share} and \textit{GDP per Capita}.
 
-For our purposes, we have taken that any country with a GDP per Capita equal to or greater than 20,000 USD will be considered a developed country and below as developing. 
+\begin{table}[h!]
+    \centering
+    \caption{Summary Statistics for Developing and Developed Countries}
+    \label{tab:summary-stats}
+    \begin{tabular}{lccc}
+        \hline
+        \textbf{Variable} & \textbf{Mean} & \textbf{Median} & \textbf{Standard Deviation} \\
+        \hline
+        \textbf{Developing Countries} & & & \\
+        Manufacturing Employment Share (\%) & 10.55 & 10.12 & 4.88 \\
+        GDP per Capita (USD) & 17,957.71 & 13,500.00 & 20,173.73 \\
+        \hline
+        \textbf{Developed Countries} & & & \\
+        Manufacturing Employment Share (\%) & 14.38 & 14.20 & 5.88 \\
+        GDP per Capita (USD) & 36,008.51 & 34,200.00 & 21,577.48 \\
+        \hline
+    \end{tabular}
+\end{table}
 
-
-The data set is integral, for us to tabulate certain variables to form initial descriptive links. We are working with variables, such as GDP, and manufacturing employment within the data set. In a comparative analysis, we would use "codebook" to establish how often a variable is present in a dataset, and also to be able to derive and analyze the mean, median, and standard variation.
-
-\subsection{Descriptive Statistics}
-
-\textbf{In developing countries:}
-\begin{itemize}
-\item \textbf{Manufacturing employment share:} Mean of 10.55 percent, with a standard deviation of 4.88 percent. This indicates relatively low levels of industrialization and significant variability among countries.
-\item \textbf{GDP per capita:} Mean of 17,957.71 USD, with a standard deviation of 20,173.73 USD. This reflects both economic disparity and uneven development across regions.
-\end{itemize}
-
-\textbf{In developed countries:}
-\begin{itemize}
-\item \textbf{Manufacturing employment share:} Mean of 14.38 percent and a standard deviation of 5.88 percent, reflecting more advanced industrial structures with moderate variation.
-\item \textbf{GDP per capita:} Mean of 36,008.51 USD, with a standard deviation of 21,577.48 USD, indicating greater economic stability and higher income levels.
-\end{itemize}
-
-
-
-\section{Results}
-\label{sec:result}
-
-The analysis evaluated the relationship between manufacturing employment and GDP per capita across developed and developing countries from 1990 to 2019.As manufacturing employment decreases, GDP increases, which indicates a negative relationship between manufacturing employment and GDP. The null hypothesis that goes along with our hypothesis is that there is no relationship between manufacturing employment and GDP. Descriptive statistics revealed distinct patterns between these two groups, reflecting their varying stages of industrialization and economic growth.
+The summary statistics indicate clear differences between developing and developed countries. Developing countries show lower mean and median values for manufacturing employment share and GDP per capita, with higher variability in GDP per capita, reflecting significant economic disparity. Developed countries, on the other hand, exhibit higher means and medians with more stability in GDP per capita, highlighting advanced industrial structures.
 
 \subsection{Graphical Trends}
 
-
-\begin{itemize}
-\item \textbf{Developing countries:} 
+\textbf{Developing countries:} 
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{GDP DEVELOPING GRAPH.png}
@@ -129,9 +123,8 @@ The analysis evaluated the relationship between manufacturing employment and GDP
     \caption{Enter Caption}
     \label{fig:enter-label}
 \end{figure}
-\item Manufacturing employment shares exhibited fluctuations but generally declined after 2010. However, GDP per capita followed a steady upward trajectory, suggesting that factors beyond manufacturing, such as technological adoption or service sector expansion, are driving economic growth.
 
-\item \textbf{Developed countries:} 
+\textbf{Developed countries: }
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{FINAL FINAL GDP DEVELOPED.png}
@@ -145,26 +138,49 @@ The analysis evaluated the relationship between manufacturing employment and GDP
     \label{fig:enter-label}
 \end{figure}
 
-\item Manufacturing employment shares consistently declined over the study period, reflecting ongoing de-industrialization. Despite this, GDP per capita showed steady growth, highlighting the role of advanced industries, automation, and high-productivity sectors in sustaining economic progress.
-\end{itemize}
 
-\subsection{Correlation Analysis}
-A correlation test will be conducted to compare developing to developed countries and economies, and we will graph our two main variables, GDP and manufacturing employment.
-\begin{itemize}
-\item \textbf{Developing Countries:} The correlation between manufacturing employment share and GDP per capita was \textbf{0.2710}, with a p-value of 0.0000, indicating a positive relationship. This suggests that higher manufacturing employment shares are associated with higher GDP per capita, reinforcing the importance of industrialization in early stages of economic development.
-\item \textbf{Developed Countries:} The correlation between manufacturing employment share and GDP per capita was \textbf{-0.3601}, with a p-value of 0.0000, indicating a statistically significant negative relationship. This reflects the shift toward service-oriented economies in developed nations, where GDP growth continues despite declining manufacturing employment.
-\end{itemize}
+\subsection{Data Limitations}
+This study relies on aggregate data, which may obscure important variations between individual countries. Furthermore, gaps in data reporting, especially in developing countries, could affect the validity of our results. Despite these limitations, the dataset provides valuable insights into long-term economic and industrial trends on a global scale.
+
+\subsection{Exclusions and Clarifications}
+Our analysis excludes data after 2019 to avoid the confounding effects of the COVID-19 pandemic, which introduced unprecedented disruptions to global economies and labor markets. Additionally, our focus on two primary variables, \textit{Manufacturing Employment Share} and \textit{GDP per Capita}, allows us to conduct a more detailed examination of their relationship across different stages of economic development.
 
 
-\subsection{Interpretation of Results}
+\section{Results}
+\label{sec:result}
 
-These findings support the hypothesis that manufacturing plays a more significant role in driving economic growth in developing countries compared to developed ones. The positive correlation in developing countries underscores the critical role of industrialization in early stages of economic growth. In contrast, the negative correlation in developed countries highlights the global transition toward service-oriented economies.
+The analysis evaluated the relationship between manufacturing employment and GDP per capita across developed and developing countries from 1990 to 2019. As manufacturing employment decreases, GDP increases, which indicates a negative relationship between manufacturing employment and GDP. The null hypothesis that goes along with our hypothesis is that there is no relationship between manufacturing employment and GDP. Descriptive statistics revealed distinct patterns between these two groups, reflecting their varying stages of industrialization and economic growth.
 
-This analysis also reveals the uneven benefits of industrialization across regions. Developing countries can leverage industrialization to reduce economic disparity, while developed countries must focus on diversifying their economies and embracing innovation to sustain growth.
+\subsection{Graphical Trends}
 
-\subsection{Limitations}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{GDP DEVELOPING GRAPH.png}
+    \caption{GDP Per Capita Over Time}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{FINAL GRAPH MFT DEVELOPING.png}
+    \caption{Manufacturing Over Time}
+    \label{fig:enter-label}
+\end{figure}
+\item Manufacturing employment shares exhibited fluctuations but generally declined after 2010. However, GDP per capita followed a steady upward trajectory, suggesting that factors beyond manufacturing, such as technological adoption or service sector expansion, are driving economic growth.
 
-This study’s reliance on aggregate data may mask important variations between individual countries. Additionally, gaps in data reporting, especially in developing countries, could affect the validity of the results. Future research could incorporate more specific data and explore the effects of other sectors, such as technology and services, on GDP growth
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{FINAL FINAL GDP DEVELOPED.png}
+    \caption{GDP Per Capita Over Time}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{FINAL FINAL MANU DEVELOPED.png}
+    \caption{Manufacturing Over Time}
+    \label{fig:enter-label}
+\end{figure}
+
 
 \section{Discussion}
 \label{sec:discussion}
