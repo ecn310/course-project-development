@@ -10,10 +10,10 @@ _**Part 1: Accessing data on the platform**_
 _**Part 2: Downloading the Data sets**_
 
 1. Once the data has been aggregated onto the chart and the table on the right-hand side, there is a download icon in the menu bar at the bottom of the chart display. Click on that to get a mini pop-up screen.
-2. On the screen, choose the "data" option instead of "Visualization." This will give you a drop-down menu with many sections and subheadings, the main one of which is "Data API."
-3. Under "Data API," select "Download only the currently selected data visible in the chart."
+2. On the screen, choose the "data" option instead of "Visualization." This will give you a drop-down menu with many sections and subheadings, the main of which is "Data API."
+3. Under "Data API," select "Download only the currently selected data visible in the chart." it is a default setting, but make sure "shortened column names" are chosen. 
 4. and copy the "Data URL (CSV format)."
-5. Once these options are chosen, go to "Quick Download" and select "Download displayed data."
+5. Once you have chosen these options, go to "Quick Download" and select "Download displayed data."
 6. Since the second "GDP per capita" data were on the same site, it was logical to follow the same steps (specifically from step 2) implemented to obtain the data for variable one.
 
 - Code examples are provided at the bottom of the download pop-up that is useful for importing that data, depending on the language used. We followed the last example, processing our data using Stata. The replication package has more code.
@@ -22,5 +22,5 @@ _**Part 2: Downloading the Data sets**_
 _**Data Analysis:**_
 
 1. Once all the links have been attained, in this case, only two are required for each variable. There should be four links in total.
-2. The primary analysis used the do-file named [Merge_GDp_Mftc.do](https://github.com/ecn310/course-project-development/blob/main/Reproducibility%20Package/Merge_GDp_Mftc.do). This do.file has the code to clear,, and merge the developed and developing data sets in the respective categories. For example, merging developing Manufacturing variables with GDP per capita (the critical part is to not mix up the urls). 
-4. We then used the the same code in [Merge_GDp_Mftc.do](https://github.com/ecn310/course-project-development/blob/main/Reproducibility%20Package/Merge_GDp_Mftc.do) for graphing and getting a scatterplot at the end. If it is confusing to look at everything in one place the graphing and correlation analysis can be found in do-file named [mft_developed_analysis.do](https://github.com/ecn310/course-project-development/blob/main/Reproducibility%20Package/gdp_developed_analysis.do). 
+2. The primary analysis used the do-file named [Merge_GDp_Mftc.do](https://github.com/ecn310/course-project-development/blob/main/Reproducibility%20Package/Merge_GDp_Mftc.do). This do.file has the code to clear,, and merge the developed and developing data sets in the respective categories. For example, merging developing Manufacturing variables with GDP per capita (the critical part is not to mix up the URLs). 
+4. We then used the same code in [Merge_GDp_Mftc.do](https://github.com/ecn310/course-project-development/blob/main/Reproducibility%20Package/Merge_GDp_Mftc.do) for graphing and getting a scatterplot at the end. If it is confusing to look at everything in one place, the graphing and correlation analysis can be found in the do-file named [mft_developed_analysis.do](https://github.com/ecn310/course-project-development/blob/main/Reproducibility%20Package/gdp_developed_analysis.do). 
