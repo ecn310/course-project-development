@@ -57,8 +57,3 @@ pwcorr Mft_sh_Developed gdp_Developed, sig
 * For the scatterplot of Developed 
 twoway scatter gdp_Developed Mft_sh_Developed, title("Developed Countries") xtitle("Manufacturing") ytitle("GDP per Capita")
 
-*and then to save the graphs (PNG's), you can click on the file icon on Stata and save to the respective folder on the device or you can use the command below 
-   
-graph export "C:\Users\spsotelo\Downloads\DEVELOPED MANUF GRAPH.png", as(png) replace
-
-graph bar Mft_sh_Developing, over(year, sort(ascending))
