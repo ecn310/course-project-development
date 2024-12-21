@@ -1,0 +1,104 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Merge_GDP_Mftc.log
+  log type:  text
+ opened on:  12 Dec 2024, 13:12:41
+
+. 
+. 
+. 
+. cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data"
+C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data
+
+. 
+. 
+. 
+. import delimited "https://ourworldindata.org/grapher/manufacturing-share-of-total-employment.csv?v=1&csvType=filtered&useColumnShortNames=true&tab=cha
+> rt&country=LUX~IRL~SGP~QAT~BMU~ARE~CHE~CYM~NOR~USA~SMR~DNK~NLD~BRN~HKG~AUT~ISL~SWE~BEL~DEU~BHR~MAC~AUS~SAU~CAN~KWT~FIN~MLT~GBR~FRA~KOR~NZL~CYP~ISR~ITA
+> ~JPN~ABW~CZE~SVN~ESP~LTU~EST~POL~PRT~GUY~HUN~OMN~BHS~HRV~PRI~PAN~SVK~TUR~LVA~ROU~GRC~KNA~MYS~BGR~RUS~KAZ~CHL~SYC~URY~TTO~CUW~MUS~ARG~ATG~MNE~CRI~SRB~T
+> CA~MEX", clear
+(4 vars, 1,361 obs)
+
+. 
+. 
+. 
+. rename _9_2_2__sl_tlf_manf Mft_sh_Developed
+
+. 
+. 
+. 
+. sort entity year
+
+. 
+. 
+. 
+. save "developedManufacturing.dta", replace
+file developedManufacturing.dta saved
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. import delimited "https://ourworldindata.org/grapher/gdp-per-capita-worldbank.csv?v=1&csvType=filtered&useColumnShortNames=true&tab=chart&country=LUX~
+> IRL~SGP~QAT~BMU~ARE~CHE~CYM~NOR~USA~WB_NA~SMR~DNK~NLD~BRN~HKG~AUT~ISL~SWE~DEU~BEL~BHR~MAC~AUS~SAU~KWT~CAN~FIN~MLT~GBR~FRA~KOR~NZL~CYP~ISR~ITA~JPN~ABW~
+> CZE~SVN~ESP~LTU~EST~POL~PRT~GUY~HUN~OMN~BHS~HRV~PRI~PAN~SVK~TUR~LVA~ROU~GRC~KNA~MYS~RUS~BGR~KAZ~CHL~SYC~URY~TTO~CUW~MUS~ARG~ATG~MNE~CRI~MDV~SRB~TCA~ME
+> X", clear
+(4 vars, 2,386 obs)
+
+. 
+. 
+. 
+. rename ny_gdp_pcap_pp_kd gdp_Developed
+
+. 
+. 
+. 
+. sort entity year
+
+. 
+. 
+. 
+. save "developedGDPpc.dta", replace
+file developedGDPpc.dta saved
+
+. 
+. 
+. 
+. 
+. 
+. use "developedManufacturing.dta", clear
+
+. 
+. 
+. 
+. 
+. 
+. merge 1:1 entity year using developedGDPpc.dta
+
+    Result                           # of obs.
+    -----------------------------------------
+    not matched                         1,057
+        from master                        16  (_merge==1)
+        from using                      1,041  (_merge==2)
+
+    matched                             1,345  (_merge==3)
+    -----------------------------------------
+
+. 
+. 
+. 
+. save "developedmergedgdp_mftc.dta", replace
+file developedmergedgdp_mftc.dta saved
+
+. 
+. 
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Merge_GDP_Mftc.log
+  log type:  text
+ closed on:  12 Dec 2024, 13:12:42
+--------------------------------------------------------------------------------------------------------------------------------------------------------
