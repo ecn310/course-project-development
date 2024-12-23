@@ -1,4 +1,4 @@
-cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development"
+cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package"
 
 log using Merge_GDP_Mftc, replace text
 
@@ -20,7 +20,7 @@ sort entity year
 
 save "developedGDPpc.dta", replace
 
-use "developed manufacturing.dta", clear
+use "developedManufacturing.dta", clear
 
 merge 1:1 entity year using developedGDPpc.dta
 
@@ -42,8 +42,9 @@ log close
 * First drop commands to drop years greater than 2019; 
 
 drop if year > 2019
-* To see the data, you can use the command (helps visualize the data set)
-codebook *and other presentations you can use 
+
+* To see the data, you can use the command (helps visualize the data set), and other presentations you can use 
+codebook 
 
 describe
 
@@ -56,8 +57,3 @@ pwcorr Mft_sh_Developed gdp_Developed, sig
 * For the scatterplot of Developed 
 twoway scatter gdp_Developed Mft_sh_Developed, title("Developed Countries") xtitle("Manufacturing") ytitle("GDP per Capita")
 
-*and then to save the graphs (PNG's), you can click on the file icon on Stata and save to the respective folder on the device or you can use the command below 
-   
-graph export "C:\Users\spsotelo\Downloads\DEVELOPED MANUF GRAPH.png", as(png) replace
-
-graph bar Mft_sh_Developing, over(year, sort(ascending))
