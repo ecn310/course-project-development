@@ -1,4 +1,4 @@
-# Development: The Link Between Manufacturing Employment and GDP in Developed and Developing Countries
+# Development: The Link Between Manufacturing Employment and GDP per Capita
 This repository contains the datasets, tools for analysis, results, reproducibility package, and final report of the ECN 310 development team project.
 
 ## Abstract
