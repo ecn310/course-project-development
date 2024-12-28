@@ -1,14 +1,15 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Development.log
+       log:  C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Merge_GDP_Mftc.log
   log type:  text
- opened on:  28 Dec 2024, 06:42:43
+ opened on:  28 Dec 2024, 06:32:02
 
 . 
 . 
 . 
-. cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Data"
-C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Data
+. cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data"
+unable to change to C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data
+r(170);
 
 . 
 . 
@@ -33,6 +34,7 @@ C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-d
 . 
 . 
 . save "developedManufacturing.dta", replace
+(note: file developedManufacturing.dta not found)
 file developedManufacturing.dta saved
 
 . 
@@ -58,6 +60,7 @@ file developedManufacturing.dta saved
 . 
 . 
 . save "developedGDPpc.dta", replace
+(note: file developedGDPpc.dta not found)
 file developedGDPpc.dta saved
 
 . 
@@ -83,6 +86,7 @@ file developedGDPpc.dta saved
 . 
 . 
 . save "developedmergedgdp_mftc.dta", replace
+(note: file developedmergedgdp_mftc.dta not found)
 file developedmergedgdp_mftc.dta saved
 
 . 
@@ -90,7 +94,7 @@ file developedmergedgdp_mftc.dta saved
 . 
 . log close
       name:  <unnamed>
-       log:  C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Development.log
+       log:  C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Merge_GDP_Mftc.log
   log type:  text
- closed on:  28 Dec 2024, 06:42:45
+ closed on:  28 Dec 2024, 06:32:05
 --------------------------------------------------------------------------------------------------------------------------------------------------------
