@@ -1,8 +1,8 @@
 cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package"
 
-log using Merge_GDP_Mftc, replace text
+log using Development, replace text
 
-cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Data"
+cd "C:\Users\meiska\OneDrive - Syracuse University\Documents\GitHub\course-project-development\Reproducibility Package\Data"
 
 import delimited "https://ourworldindata.org/grapher/manufacturing-share-of-total-employment.csv?v=1&csvType=filtered&useColumnShortNames=true&tab=chart&country=LUX~IRL~SGP~QAT~BMU~ARE~CHE~CYM~NOR~USA~SMR~DNK~NLD~BRN~HKG~AUT~ISL~SWE~BEL~DEU~BHR~MAC~AUS~SAU~CAN~KWT~FIN~MLT~GBR~FRA~KOR~NZL~CYP~ISR~ITA~JPN~ABW~CZE~SVN~ESP~LTU~EST~POL~PRT~GUY~HUN~OMN~BHS~HRV~PRI~PAN~SVK~TUR~LVA~ROU~GRC~KNA~MYS~BGR~RUS~KAZ~CHL~SYC~URY~TTO~CUW~MUS~ARG~ATG~MNE~CRI~SRB~TCA~MEX", clear
 
@@ -48,12 +48,12 @@ codebook
 
 describe
 
-summarize year gdp_Developing Mft_sh_Developing
+summarize year gdp_Developed Mft_sh_Developed
 
 *After merging to get a t-test for the developed countries 
 
 pwcorr Mft_sh_Developed gdp_Developed, sig
 
-* For the scatterplot of Developed 
-twoway scatter gdp_Developed Mft_sh_Developed, title("Developed Countries") xtitle("Manufacturing") ytitle("GDP per Capita")
+* For the scatterplot of Developed - with line of best fit 
 
+twoway (scatter gdp_Developed Mft_sh_Developed) (lfit gdp_Developed Mft_sh_Developed), title("Developed Countries") xtitle("Manufacturing Share of Employment") ytitle("GDP per Capita")
