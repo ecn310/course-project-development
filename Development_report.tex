@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+
+% set margins and spacing
+\addtolength{\textwidth}{1.3in}
+\addtolength{\oddsidemargin}{-.65in} %left margin
+\addtolength{\evensidemargin}{-.65in}
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-.5in}
+\setlength{\headheight}{0.0in}
+\setlength{\footskip}{.375in}
+\renewcommand{\baselinestretch}{1.0}
+\linespread{1.0}
+
+% load miscellaneo`us packages
+\usepackage{csquotes}
+\usepackage[american]{babel}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx,amsbsy,amssymb, amsmath, amsthm, MnSymbol,bbding,times, verbatim,bm,pifont,pdfsync,setspace,natbib}
+
+% enable hyperlinks and table of contents
+\usepackage[pdftex,
+bookmarks=true,
+bookmarksnumbered=false,
+pdfview=fitH,
+bookmarksopen=true,hyperfootnotes=false]{hyperref}
+
+% define environments
+\newtheorem{definition}{Definition}
+\newtheorem{fact}{Fact}
+\newtheorem{result}{Result}
+\newtheorem{proposition}{Proposition}
+
+
+
+\begin{document}
+\title{Development: The link between Manufacturing Employment and GDP per Capita}
+\author{Filippo Donà\thanks{Syracuse University, Economics Department. Email: kbuzard@syr.edu.} \and Lucia Rios-Luy\thanks{Syracuse University, Maxwell School of Citizenship and Public Affairs. Email: Lirioslu@syr.edu} \and Meghavarshini Iska \thanks{Syracuse University, Maxwell School of Citizenship and Public Affairs. Email: Meiska@syr.edu} \and Sergio Sotelo\thanks{abc}}
+\date{\vskip-.1in \today}
+\maketitle
+
+\vskip.3in
+\begin{center} {\bf Abstract} \end{center}
+
+\begin{quote}
+{\small We examine the link between GDP growth and manufacturing employment, hypothesizing that there is a negative relationship between manufacturing employment and GDP; As manufacturing employment decreases, GDP increases. We source statistics
+from Our World in Data charts, which examine these variables in all countries around the globe.
+We create a distinction between developing and developed countries. According to the World Bank, in 2021, the average GDP per capita globally was USD 20,271 (Fu and Rissanen, 2024), thus, we set the threshold at USD 20,000 Annual GDP per capita to distinguish between developing and developed economies. We conduct a correlation test to compare these variables across both developing and developed economies. 
+The research conducted supports the hypothesis that manufacturing plays a more significant role in driving economic growth in developing countries than in developed ones. The positive correlation in developing countries underscores the critical role of industrialization in the early stages of economic
+growth. In contrast, the negative correlation in developed countries highlights the global transition from manufacturing to tertiary industries.}
+\end{quote}
+
+\bigskip
+
+\section{Introduction} \label{sec:introduction}
+
+Economic growth and development are two key terms in macroeconomics that have been studied by many and it is vital to closely monitor and understand them to realize and compose policies that drive development and growth in developing and developed countries. Our study examines the link between GDP growth and manufacturing employment. However, it is vital to understand that this varies from country to country, depending on how developed it can be due to the varying numbers in population, resources, and government standing. Hence, our study focuses on a specific sector that contributes to an economy's growth: manufacturing. Additionally, it is specific to how the employment rates change in the manufacturing sector in a developed country compared to a developing country. 
+
+It is essential to look at the basic definition of growth at the basic level. When an economy or business grows, it usually starts from the primary sectors—trading their mineral resources or solely working on agricultural produce. Then, it moves on to the secondary manufacturing and tertiary and quaternary sectors, which mainly focus on services and knowledge-driven economies. According to Rostow, "The drive to maturity is the long interval of sustained if fluctuating progress as the economy seeks to extend modern technology over the whole front of its economic activity... New leading sectors emerge, building on the foundations laid by the earlier expansion of primary and manufacturing sectors," (Rostow, 1959). This progression through sectors reflects a shift in focus from resource-based activities to knowledge-driven industries and underpins sustained economic development as new leading sectors build on the foundations of earlier advancements.
+
+The manufacturing sector's contribution to economic growth varies as economies progress through different stages of development. In line with Rostow's theory of sectoral shifts, our analysis reveals that manufacturing employment influences GDP differently depending on a country's stage of development. Moreover, when executing our data analysis, we observed that the correlation is different in developed and developing countries. In developed countries, we can see a negative correlation, whereas a positive correlation exists within developing countries. As manufacturing employment decreases, GDP increases in developed regions, and as manufacturing employment increases, so does GDP per capita in developing countries.
+
+Our study hypothesizes that as GDP increases, there is a visible decrease in manufacturing employment, indicating a negative relationship between manufacturing employment and GDP. To reject our null hypothesis, we conducted a correlation test to compare our variables, GDP and manufacturing employment, across developing and developed countries. 
+
+
+Using data from Our World in Data, we analyze the relationship between manufacturing employment and GDP per capita and compare this relationship between developing and developed countries. We framed our analysis between 1990 and 2019 so as not to account for the inconsistencies presented during Covid-19. Through a correlation test, we discovered that manufacturing employment and GDP per capita are undeniably linked and that, demonstrated by the low R-squared, manufacturing employment greatly influences GDP changes. Thus, with the correlation tests and imperial results, there is insufficient evidence to reject our null hypothesis that there is no correlation between GDP per Capita and Manufacturing employment. 
+
+
+\section{Literature Review} \label{sec:literature}
+
+
+% Discuss at least five papers that are closely related to your results (more is better). Explain how they're related. Did you find something similar, or different? Did you look at a different context? Different time period? Different level of detail?
+
+Previous research concerning the link between GDP, manufacturing, and quality of life index was analyzed. Michael Appiah et. al. researched how the Human Development Index specifically impacted GDP growth in African countries between 1990 and 2015, particularly focusing on how some African countries achieved a very high human development when controlling for inflation, capital, investment, labor, and foreign aid, finding that as the life expectancy increases in African nations, rise in human development through the rise of GDP is observed (Appiah et. al., 2019). 
+
+Similarly, Adam Szirmai researched how technological advancements during the Industrial Revolution boosted industrial output and economic growth in nations like Britain, while leaving others like Japan and African countries behind. Szirmai hypothesized that while manufacturing has historically driven economic growth in developing countries, there is a growing divergence of manufacturing employment from economic growth, specifically in the face of globalization and the rise of the service sector in many regions (Szirmai, 2012). 
+
+Angus Maddison's research focused on analyzing growth across developing and developed countries, comparing the preindustrial and postindustrial eras, finding that the preindustrial revolution wealth of Western Europe is a result of centuries of investment, exploitation of resources, and financial and technological advancements, which led to an economic lead that widened the income gap with developing countries (Maddison, 1983). 
+
+However, Nobuya Haraguchi questioned how the role of manufacturing in economic development and growth, in developing countries, has changed over the last 25 years, finding that industrialization remains a key factor in economic growth and development. Still, manufacturing has only become concentrated in a few countries, not diminishing overall (Haraguchi, 2017). 
+
+Lastly, Gerald Helleiner researched the effectiveness of direct foreign investment in promoting stable development finance, structural adjustment, and export-oriented growth, and which policies enhance or hinder its impact, hypothesizing that as FDI increases, so does political stability, exports, and standards of living. In summary, previous research has largely focused on local historical analyses that integrate policy-related factors into their realization.
+
+\section{Theoretical Analysis}
+\label{sec:theory}
+%Optional–may include in intro if it’s short.
+This paper examines how manufacturing employment has affected growth development over time and place. Explicitly, we look at how the manufacturing employment sector will impact the gross domestic product per capita (GDP per capita) in developed and developing countries. Within our data analysis, we have observed that the correlation is different in developed and developing countries. In contrast, in developed countries, we can see a negative and positive correlation within developing countries. As manufacturing employment decreases, GDP increases in developed regions, and as manufacturing employment increases, so does GDP per capita in developing countries. This idea stems from the economic transformation seen in advanced nations, where progress in technology and the rise of service-based industries have reduced reliance on manufacturing labor yet continued to fuel GDP expansion. Using automation and innovation, developed economies achieve greater productivity with a smaller manufacturing workforce. In contrast, developing nations with lower GDP per capita base their growth on using natural resources and a heavy dependence on agricultural growth. In addition, they have a great potential for manufacturing employment, as they have a high low-wage labor market. This theoretical perspective forms the basis for our empirical investigation into the relationship between manufacturing employment and economic growth in different stages of development.
+
+
+\section{Data}
+\label{sec:data}
+
+Our dataset was sourced from the \textit{Our World in Data} database, spanning from 1990 to 2019. The dataset offers a comprehensive view of global economic trends, allowing us to focus on GDP per capita and manufacturing employment shares as key variables. These variables were chosen for their ability to provide a foundation for analyzing the relationship between industrial activity and economic development across different stages of growth.
+    Countries were classified as either developed or developing based on a GDP per capita threshold of \$20,000 (adjusted for inflation). Countries exceeding this threshold were categorized as developed, while those below were categorized as developing. This classification yielded a sample of 40 developed and 60 developing countries. The primary variables used in the analysis include manufacturing employment share, which measures the percentage of the workforce employed in manufacturing, and GDP per capita, an indicator of a country's economic output per person. 
+    To ensure consistent comparisons across countries, we focused on annual data for these variables, aggregating observations to minimize missing values and improve data reliability. The dataset captures long-term global trends, offering valuable insights into the interplay between manufacturing employment and economic growth.
+    The dataset stops at 2019 to avoid the confounding effects of the COVID-19 pandemic, which introduced unprecedented disruptions to global economies and labor markets. The pandemic caused significant shifts in employment structures and economic activity, particularly in the manufacturing sector, as governments worldwide imposed lockdowns and supply chains were disrupted. Including data from 2020 onwards could bias the results, as these years reflect extraordinary conditions rather than typical economic trends.
+
+\section{Results}
+\label{sec:result}
+
+    In the first part of our analysis, we examine how the relationship between manufacturing employment and GDP per capita differs between developed and developing countries from 1990 to 2019. Developed countries consistently exhibit higher GDP per capita and manufacturing employment shares, although the latter shows a steady decline over time. Developing countries display lower averages for both variables, but with greater variability in GDP per capita, highlighting structural disparities and economic volatility.
+    Developed countries demonstrate higher averages for both manufacturing employment shares (14.38\%) and GDP per capita (\$36,008.31). In contrast, developing countries show lower averages, with a manufacturing employment share of 10.55\% and GDP per capita of \$17,577.51. Variability is also more pronounced in developing countries, as evidenced by a standard deviation in GDP per capita of \$20,173.73, compared to \$21,577.48 for developed countries. Table 1 summarizes these differences, providing a statistical basis for analyzing structural disparities between the two groups.
+\begin{table}[h!]
+\centering
+\caption{Summary Statistics for Developing and Developed Countries}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Variable} & \textbf{Mean} & \textbf{Median} & \textbf{Standard Deviation} \\ \hline
+\multicolumn{4}{|l|}{\textbf{Developing Countries}} \\ \hline
+Manufacturing Employment Share (\%) & 10.55 & 10.12 & 4.88 \\ \hline
+GDP per Capita (USD) & 17,957.71 & 13,500.00 & 20,173.73 \\ \hline
+\multicolumn{4}{|l|}{\textbf{Developed Countries}} \\ \hline
+Manufacturing Employment Share (\%) & 14.38 & 14.20 & 5.88 \\ \hline
+GDP per Capita (USD) & 36,008.31 & 34,200.00 & 21,577.48 \\ \hline
+\end{tabular}
+\label{table 1}
+\end{table}
+    These trends align with the theory of structural transformation, which describes the transition of economies from reliance on agriculture to manufacturing and eventually to services. Developing countries, which are typically in the earlier stages of this transition, rely heavily on industrialization as a driver of growth. This reliance makes them more susceptible to external shocks, such as global demand shifts or resource price fluctuations. Developed countries, having completed much of this transition, rely more on service and technology sectors for economic growth.
+    We then analyzed the trends in manufacturing employment shares and GDP per capita over time. As shown in Figure 1, manufacturing employment shares in developing countries exhibit cyclical patterns, reflecting the volatility associated with industrial growth. It can be concluded that peaks are associated with periods of rapid industrial expansion, while declines correspond to economic slowdowns. In contrast, developed countries show a steady decline in manufacturing employment shares, reflecting their transition to service-based economies. Figure 2 highlights the trajectory of GDP per capita, where developing countries show steady, albeit slower, growth over time compared to the more consistent upward trend in developed countries.
+
+(Manufacturing Employment in Developing vs. Developed Countries Over Time  (Figure 1)
+
+(GDP per Capita in Developing vs. Developed Countries Over Time (Figure 2))
+
+    To validate these observations, we conducted a two-sample t-test to compare the mean manufacturing employment shares between developed and developing countries. The results confirm a statistically significant difference (p<0.05), supporting the hypothesis that manufacturing employment shares are lower on average in developing countries. Table 2 summarizes the results of this comparison and provides further details on the statistical significance of the observed differences. 
+    To further assess the impact of manufacturing employment on GDP per capita, we performed regression analyses for both developed and developing countries. For developing countries, the results indicate that a one-percentage-point increase in manufacturing employment share corresponds to an estimated \$1,000 increase in GDP per capita (R2=0.65,p<0.01R2). In developed countries, however, the relationship is weaker and statistically insignificant (p>0.05p). These results, also summarized in Table 2, demonstrate the critical role of manufacturing employment in driving economic growth during early stages of development, while highlighting its diminished importance in post-industrial economies.
+\begin{table}[h!]
+\centering
+\caption{Statistical Analysis Results}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Test} & \textbf{Result} \\ \hline
+Two-Sample t-Test (Manufacturing Employment Share) & Significant ($p < 0.05$) \\ \hline
+Regression Coefficient for Developing Countries & +1,000 (\$p < 0.01\$) \\ \hline
+Regression Coefficient for Developed Countries & Insignificant (\$p > 0.05\$) \\ \hline
+\end{tabular}
+\label{table 2}
+\end{table}
+   
+    These results suggest that developing countries rely more heavily on manufacturing employment for economic growth compared to developed nations. In developed countries, the transition to service-based industries has reduced the dependence on manufacturing as a driver of GDP growth. This supports our hypothesis that the relationship between manufacturing employment and GDP per capita varies significantly by stage of economic development.
+    These findings highlight the importance of understanding how the relationship between manufacturing employment and GDP evolves over time. For developing countries, industrialization remains a critical pathway to economic growth, but for developed economies, the focus must shift toward advanced services and technology sectors.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Variable Graphs/New Scatterplot_Dvlped.png}
+    \caption{All Data sets of GDP per Capita with Manufacturing Employment}
+    \label{figure 1}
+\end{figure}
+
+Figure 1 supports the idea that as countries become more developed, they rely less on manufacturing and more on sectors like services or technology, with manufacturing representing a smaller portion of total employment. The concentration of data points between 5 percent to 20 percent in manufacturing and GDP per capita ranging from 0 USD to 100,000 USD illustrates this trend, though there are noticeable outliers where manufacturing remains high but GDP per capita does not follow the general pattern. These outliers could suggest unique economies or data inconsistencies. The negative correlation observed aligns with economic theories, such as the Rostow model, which describes how economies shift from manufacturing to service-based industries as they mature and develop.
+Similarly, the 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Variable Graphs/New Scatterplot_Dvping.png}
+    \caption{All Data sets of GDP per Capita with Manufacturing Employment}
+    \label{figure 2}
+\end{figure}
+Figure 2 shows a dense concentration of developing countries with manufacturing employment between 0  and 20 percent and GDP per capita below 50,000 USD due to the threshold set as 20,000 USD. This suggests that while manufacturing plays a significant role in these economies, it is not sufficient to drive substantial GDP growth, as there is no clear positive or negative correlation between the two variables. Most countries remain at low GDP per capita values, regardless of their manufacturing employment levels.
+
+\section{Discussion}
+\label{sec:discussion}
+
+    Our findings highlight the relationship between manufacturing employment and GDP per capita, emphasizing the roles manufacturing plays in developed and developing economies. The results provide support for structural transformation theories, which suggest that economies transition from reliance on manufacturing to service-oriented sectors as they develop. However, the differences observed between developed and developing countries point to critical implications for policymakers and future research.
+    In developing countries, we observed a positive correlation between manufacturing employment and GDP per capita. This goes to show the role of industrialization in early stages of economic growth. Developing countries often rely heavily on labor-intensive manufacturing sectors to drive economic expansion, leveraging their abundant low-cost labor forces. Moreover, the strong regression coefficient observed in our analysis highlights the potential of increasing manufacturing employment shares in these economies. For policymakers in developing nations, this indicates that fostering industrialization and supporting manufacturing sectors through investments in infrastructure, technology, and workforce development remains vital to achieving sustainable economic growth. On the other hand, in developed countries, we found a negative correlation between manufacturing employment and GDP per capita. This reflects the observed shift toward service-oriented and knowledge-driven economies in these nations. The decline in manufacturing employment shares, combined with sustained GDP growth, reflects the increased productivity of advanced manufacturing and the rising dominance of sectors such as technology, finance, and healthcare. For developed nations, this suggests that policies should prioritize fostering innovation, enhancing productivity in high-tech manufacturing, and investing in the service sector to sustain economic growth. 
+    Our analysis is subject to several limitations that require consideration. First, the use of aggregate data may obscure regional or country-specific variations that could provide further insights. For instance, some developing nations might experience unique trajectories due to differences in resources, governance, or integration into global trade networks. Similarly, the varying availability of data across countries and years may introduce inconsistencies, particularly in developing countries where data gaps are more prevalent. Addressing these gaps in future research by leveraging more granular data could enhance the robustness of the findings.
+    Second, while the distinction between developed and developing countries based on GDP per capita provides a useful framework, it does not account for other factors that influence economic structures, such as institutional quality or access to global markets. Future studies could incorporate additional variables, such as trade openness, education levels, or technological adoption, to better understand the drivers of manufacturing’s impact on economic growth.
+    Lastly, the exclusion of data post-2019 to avoid the confounding effects of the COVID-19 pandemic, while necessary, limits the ability to assess how global crises impact the manufacturing-GDP relationship. Future research could explore how external shocks, such as pandemics, reshape the role of manufacturing in both developed and developing economies.
+    Our findings carry important policy implications. For developing nations, strategies to strengthen manufacturing sectors can lead to economic growth and facilitate structural transformation. Investments in industrial policies and trade agreements that promote manufacturing exports are particularly critical. For developed countries, the focus should shift to fostering innovation in advanced manufacturing while embracing the growth of service-oriented sectors. Additionally, understanding the long-term implications of these transitions for labor markets and income inequality remains an essential area for further investigation.
+    In conclusion, our analysis demonstrates the pivotal but evolving role of manufacturing employment in economic development. While developing countries benefit significantly from industrialization, developed nations exemplify the transition toward service-based economies. These findings underscore the importance of tailored economic policies that reflect a country’s stage of development and structural characteristics. By addressing the limitations identified and expanding the scope of future research, we can deepen our understanding of the manufacturing-GDP relationship and its implications for sustainable economic growth.
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Manufacturing and economic growth are unequivocally linked. Previous literature has largely focused on the shift toward manufacturing across time, starting from the industrial revolution, and the income gaps that have risen across the world today.  We examined the relationship between manufacturing and GDP, and how this differs between developed and developing countries.
+
+We found that there is a significant negative relationship between manufacturing employment and real GDP, which means that we reject our null hypothesis. The study we conducted examines developed and developing countries, and with out findings we suggest that economies transition toward service-oriented sectors as they develop. Moreover,we believe that our study emphasizes the importance of economic policies that are adapted and adjusted to a country's period of development. 
+\newpage
+\section*{Bibliography}
+\singlespacing
+\setlength\bibsep{0pt}
+
+Appiah, M., Amoasi, R., Frowne, D. I. (2019). Human development and its effects on economic growth and development. International Research Journal of Business Studies, 12(2).
+
+Fu, H., \& Rissanen, M. (2024, May 30). New international comparison program data sheds light on global economy and living standards. \textit{World Bank Blogs.} \href{https://blogs.worldbank.org/en/opendata/new-international-comparison-program-data-sheds-light-on-global-}{https://blogs.worldbank.org/en/opendata/new-international-comparison-program-data-sheds-light-on-global-}
+
+Haraguchi, N., Cheng, C. F. C., Smeets, E. (2017). The importance of manufacturing in economic development: Has this changed? World Development, 93, 293–315.
+
+Helleiner, G. K. (1988). Direct foreign investment and manufacturing for export in developing countries: A review of the issues. In Policies for development: Essays in honour of Gamani Corea (pp. 123–153).
+
+Maddison, A. (1983). A comparison of levels of GDP per capita in developed and developing countries, 1700–1980. The Journal of Economic History, 43(1), 27–41.
+
+Szirmai, Adam. “Industrialisation as an Engine of Growth in Developing Countries, 1950–2005.” Structural Change and Economic Dynamics, vol. 23, no. 4, Dec. 2012, pp. 406–420, \href{https://doi.org/10.1016/j.strueco.2011.01.005}{https://doi.org/10.1016/j.strueco.2011.01.005}.
+
+Rostow, W. W. (1959). The Stages of Economic Growth. The Economic History Review, 12(1), 1–16. https://doi.org/10.2307/2591077
+
+
+\newpage
+\section*{Data Appendix} \label{sec:appendixa}
+\addcontentsline{toc}{section}{Appendix A}
+
+The data files, code, and output used for analysis and documentation for this project can be found in the Development \href{https://github.com/ecn310/course-project-developmentv}{GitHub repository}. All information and files needed to reproduce these results can be found in a \href{https://github.com/ecn310/course-project-development/tree/main/Reproducibility%20Package}{reproducibility package} in this repository. All figures can be found in the \href{https://github.com/ecn310/course-project-development/tree/main/Variable%20Graphs}{Variable Graphs} folder in the repository. The code used to complete the analysis is in a file titled \href{https://github.com/ecn310/course-project-development/tree/main/Reproducibility%20Package}{Development.do}. 
+The results can be viewed in a file titled \href{https://github.com/ecn310/course-project-development/blob/main/Merge_GDP_Mftc.log}{Development.log} 
+ 
+ After searching on the website  \href{https://ourworldindata.org/}{Our World in Data}, one can access the original datasets for the two respective variables. The merged datasets can be found \href{https://github.com/ecn310/course-project-developmentv}{GitHub repository} and is titled "Development.do."
+
+\end{document}
