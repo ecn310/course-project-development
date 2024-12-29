@@ -10,5 +10,5 @@ growth. In contrast, the negative correlation in developed countries highlights 
 
 ## Contents
 
-1. Development Final Report 
-2. Reproducibility Package 
+1. [Development Final Report](https://github.com/ecn310/course-project-development/blob/e7294ef8893d4cca091250c58e98f9843e316475/Final%20Report/course_project_development.pdf)
+2. [Reproducibility Package](https://github.com/ecn310/course-project-development/tree/e7294ef8893d4cca091250c58e98f9843e316475/Final%20Report/Reproducibility%20Package)
